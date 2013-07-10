@@ -9,6 +9,6 @@ Custom convert
 ==============
 
 1. Download lastest data in json format from http://cldr.unicode.org/ and extract it
-2. Open all.php (or custome.php) to change custom configs.
-3. Call all.php (or custome.php) via command line or webserver.
+2. Open all.php (or custom.php) to change custom configs.
+3. Call all.php (or custom.php) via command line or webserver.
 
