@@ -3,6 +3,7 @@
 require 'function.php';
 
 $jsonDataDir = '/WebServer/CLDR/json/main';
+$jsonSupplementalDataDir = '/WebServer/CLDR/json/supplemental';
 $phpDataDir = 'Data/php';
 $fileMode = 0666;
 $locale = array(
@@ -83,7 +84,13 @@ $field = array(
     'units',
     'variants'
 );
+$supplemental = array(
+    'plurals',
+    'weekData'
+);
+
 $skiplocaleindex = false;
+$skipsupplementalindex = false;
 
 define('IN', true);
 
