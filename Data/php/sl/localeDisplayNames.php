@@ -1,174 +1,93 @@
-<?php
-$data = array(
-    'main' => array(
-        'sl' => array(
-            'localeDisplayNames' => array(
-                'localeDisplayPattern' => array(
-                    'localePattern' => '{0} ({1})',
-                    'localeSeparator' => ', ',
-                    'localeKeyTypePattern' => '{0}: {1}'
-                ),
-                'keys' => array(
-                    'calendar' => 'koledar',
-                    'colAlternate' => 'Razvrščanje s prezrtimi znaki',
-                    'colBackwards' => 'Razvrščanje z obratnimi naglasi',
-                    'colCaseFirst' => 'Razvrščanje velike črke/male črke',
-                    'colCaseLevel' => 'Razvrščanje, občutljivo na velike/male črke',
-                    'colHiraganaQuaternary' => 'Razvrščanje kana',
-                    'collation' => 'razvrščanje',
-                    'colNormalization' => 'Normalizirano razvrščanje',
-                    'colNumeric' => 'Številsko razvrščanje',
-                    'colStrength' => 'Moč razvrščanja',
-                    'currency' => 'valuta',
-                    'numbers' => 'Številke',
-                    'timezone' => 'Časovni pas',
-                    'va' => 'Različica območnih nastavitev',
-                    'variableTop' => 'Razvrščanje kot simboli',
-                    'x' => 'Private-Use'
-                ),
-                'types' => array(
-                    'calendar' => array(
-                        'buddhist' => 'budistični koledar',
-                        'chinese' => 'kitajski koledar',
-                        'coptic' => 'Koptski koledar',
-                        'dangi' => 'dangi',
-                        'ethiopic' => 'Etiopski koledar',
-                        'ethiopic-amete-alem' => 'Etiopsko ametsko alemski koledar',
-                        'gregorian' => 'gregorijanski koledar',
-                        'hebrew' => 'hebrejski koledar',
-                        'indian' => 'indijanski koledar',
-                        'islamic' => 'islamski koledar',
-                        'islamic-civil' => 'islamski civilni koledar',
-                        'iso8601' => 'iso8601',
-                        'japanese' => 'japonski koledar',
-                        'persian' => 'Perzijski koledar',
-                        'roc' => 'kitajski državni koledar'
-                    ),
-                    'collation' => array(
-                        'standard' => 'standard',
-                        'traditional' => 'razvrščanje po tradicionalnem sistemu',
-                        'big5han' => 'razvrščanje po sistemu tradicionalne kitajščine - Big5',
-                        'dictionary' => 'Vrstni red razvrščanja v slovarju',
-                        'ducet' => 'Privzeto razvrščanje Unicode',
-                        'gb2312han' => 'razvrščanje po sistemu poenostavljene kitajščine - GB2312',
-                        'phonebook' => 'razvrščanje po abecedi',
-                        'phonetic' => 'Fonetično razvrščanje',
-                        'pinyin' => 'razvrščanje po sistemu pinjin',
-                        'reformed' => 'Reformirano razvrščanje',
-                        'search' => 'Splošno iskanje',
-                        'searchjl' => 'Iskanje po začetnem soglasniku hangul',
-                        'stroke' => 'razvrščanje po zaporedju pisanja pismenk',
-                        'unihan' => 'Razvrščanje koren-poteza',
-                        'zhuyin' => 'zhuyin'
-                    ),
-                    'numbers' => array(
-                        'native' => 'Domače števke',
-                        'traditional' => 'Tradicionalne številke',
-                        'finance' => 'Finančne številke',
-                        'arab' => 'Arabskoindijske števke',
-                        'arabext' => 'Razširjene arabskoindijske števke',
-                        'armn' => 'Armenske številke',
-                        'armnlow' => 'Armenske majhne številke',
-                        'bali' => 'bali',
-                        'beng' => 'Bengalske števke',
-                        'brah' => 'brah',
-                        'cakm' => 'cakm',
-                        'cham' => 'cham',
-                        'deva' => 'Devangarske števke',
-                        'ethi' => 'Etiopijske številke',
-                        'fullwide' => 'Števke polne širine',
-                        'geor' => 'Gruzijske številke',
-                        'grek' => 'Grške številke',
-                        'greklow' => 'Grške male številke',
-                        'gujr' => 'Gudžaratske števke',
-                        'guru' => 'Gurmuške števke',
-                        'hanidec' => 'Kitajske decimalne številke',
-                        'hans' => 'Poenostavljene kitajske številke',
-                        'hansfin' => 'Poenostavljene kitajske finančne številke',
-                        'hant' => 'Tradicionalne kitajske številke',
-                        'hantfin' => 'Tradicionalne kitajske finančne številke',
-                        'hebr' => 'Hebrejske številke',
-                        'java' => 'java',
-                        'jpan' => 'Japonske številke',
-                        'jpanfin' => 'Japonske finančne številke',
-                        'kali' => 'kali',
-                        'khmr' => 'Kmerske števke',
-                        'knda' => 'Kanaredske števke',
-                        'lana' => 'lana',
-                        'lanatham' => 'lanatham',
-                        'laoo' => 'Laoške števke',
-                        'latn' => 'Zahodne števke',
-                        'lepc' => 'lepc',
-                        'limb' => 'limb',
-                        'mlym' => 'Malajalamske števke',
-                        'mong' => 'Mongolske števke',
-                        'mtei' => 'mtei',
-                        'mymr' => 'Mjanmarske števke',
-                        'mymrshan' => 'mymrshan',
-                        'nkoo' => 'nkoo',
-                        'olck' => 'olck',
-                        'orya' => 'Orijske števke',
-                        'osma' => 'osma',
-                        'roman' => 'Rimske številke',
-                        'romanlow' => 'Rimske male številke',
-                        'saur' => 'saur',
-                        'shrd' => 'shrd',
-                        'sora' => 'sora',
-                        'sund' => 'sund',
-                        'takr' => 'takr',
-                        'talu' => 'talu',
-                        'taml' => 'Tamilske številke',
-                        'tamldec' => 'tamldec',
-                        'telu' => 'Teluške števke',
-                        'thai' => 'Tajske števke',
-                        'tibt' => 'Tibetanske števke',
-                        'vaii' => 'Številke vai'
-                    ),
-                    'colAlternate' => array(
-                        'non-ignorable' => 'Razvrščanje simbolov',
-                        'shifted' => 'Razvrščanje s prezrtjem simbolov'
-                    ),
-                    'colBackwards' => array(
-                        'no' => 'Navadno razvrščanje naglasov',
-                        'yes' => 'Obratno razvrščanje naglasov'
-                    ),
-                    'colCaseFirst' => array(
-                        'lower' => 'Razvrščanje malih črk najprej',
-                        'no' => 'Razvrščanje v običajnem zaporedju velikih/malih črk',
-                        'upper' => 'Razvrščanje velikih črk najprej'
-                    ),
-                    'colCaseLevel' => array(
-                        'no' => 'Razvrščanje ne glede na velike/male črke',
-                        'yes' => 'Razvrščanje ob upoštevanju velikih/malih črk'
-                    ),
-                    'colHiraganaQuaternary' => array(
-                        'no' => 'Razvrščanje kana ločeno',
-                        'yes' => 'Razvrščanje kana različno'
-                    ),
-                    'colNormalization' => array(
-                        'no' => 'Razvrščanje brez normaliziranja',
-                        'yes' => 'Normalizirano razvrščanje Unicode'
-                    ),
-                    'colNumeric' => array(
-                        'no' => 'Ločeno razvrščanje številk',
-                        'yes' => 'Številsko razvrščanje števk'
-                    ),
-                    'colStrength' => array(
-                        'identical' => 'Razvrščanje vsega',
-                        'primary' => 'Razvrščanje samo osnovnih črk',
-                        'quaternary' => 'Razvrščanje po naglasih/velikih črkah/malih črkah/širini/kana',
-                        'secondary' => 'Razvrščanje naglasov',
-                        'tertiary' => 'Razvrščanje po naglasih/velikih črkah/malih črkah/širini'
-                    )
-                ),
-                'codePatterns' => array(
-                    'language' => 'Jezik: {0}',
-                    'script' => '{0}',
-                    'territory' => 'Regija: {0}'
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'sl' => 
+    array (
+      'localeDisplayNames' => 
+      array (
+        'localeDisplayPattern' => 
+        array (
+          'localePattern' => '{0} ({1})',
+          'localeSeparator' => '{0}, {1}',
+          'localeKeyTypePattern' => '{0}: {1}',
+        ),
+        'keys' => 
+        array (
+          'calendar' => 'koledar',
+          'colAlternate' => 'Razvrščanje s prezrtimi znaki',
+          'colBackwards' => 'Razvrščanje z obratnimi naglasi',
+          'colCaseFirst' => 'Razvrščanje velike črke/male črke',
+          'colCaseLevel' => 'Razvrščanje, občutljivo na velike/male črke',
+          'colHiraganaQuaternary' => 'Razvrščanje kana',
+          'colNormalization' => 'Normalizirano razvrščanje',
+          'colNumeric' => 'Številsko razvrščanje',
+          'colStrength' => 'Moč razvrščanja',
+          'collation' => 'razvrščanje',
+          'currency' => 'valuta',
+          'numbers' => 'Številke',
+          'timezone' => 'Časovni pas',
+          'va' => 'Različica območnih nastavitev',
+          'variableTop' => 'Razvrščanje kot simboli',
+          'x' => 'Private-Use',
+        ),
+        'types' => 
+        array (
+          'numbers' => 
+          array (
+            'vaii' => 'Številke vai',
+          ),
+          'collation' => 
+          array (
+            'zhuyin' => 'zhuyin',
+          ),
+          'calendar' => 
+          array (
+            'roc' => 'kitajski državni koledar',
+          ),
+          'colStrength' => 
+          array (
+            'tertiary' => 'Razvrščanje po naglasih/velikih črkah/malih črkah/širini',
+          ),
+          'colCaseFirst' => 
+          array (
+            'upper' => 'Razvrščanje velikih črk najprej',
+          ),
+          'colBackwards' => 
+          array (
+            'yes' => 'Obratno razvrščanje naglasov',
+          ),
+          'colCaseLevel' => 
+          array (
+            'yes' => 'Razvrščanje ob upoštevanju velikih/malih črk',
+          ),
+          'colHiraganaQuaternary' => 
+          array (
+            'yes' => 'Razvrščanje kana različno',
+          ),
+          'colNormalization' => 
+          array (
+            'yes' => 'Normalizirano razvrščanje Unicode',
+          ),
+          'colNumeric' => 
+          array (
+            'yes' => 'Številsko razvrščanje števk',
+          ),
+          'colAlternate' => 
+          array (
+            'shifted' => 'Razvrščanje s prezrtjem simbolov',
+          ),
+        ),
+        'codePatterns' => 
+        array (
+          'language' => 'Jezik: {0}',
+          'script' => '{0}',
+          'territory' => 'Regija: {0}',
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

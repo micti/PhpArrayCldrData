@@ -1,174 +1,93 @@
-<?php
-$data = array(
-    'main' => array(
-        'fr' => array(
-            'localeDisplayNames' => array(
-                'localeDisplayPattern' => array(
-                    'localePattern' => '{0} ({1})',
-                    'localeSeparator' => ', ',
-                    'localeKeyTypePattern' => '{0} : {1}'
-                ),
-                'keys' => array(
-                    'calendar' => 'calendrier',
-                    'colAlternate' => 'Tri ne tenant pas compte des symboles',
-                    'colBackwards' => 'Tri inversé des caractères accentués',
-                    'colCaseFirst' => 'Classement basé sur les majuscules et les minuscules',
-                    'colCaseLevel' => 'Tri sensible à la casse',
-                    'colHiraganaQuaternary' => 'Tri des caractères Kana',
-                    'collation' => 'ordonnancement',
-                    'colNormalization' => 'Tri normalisé',
-                    'colNumeric' => 'Tri numérique',
-                    'colStrength' => 'Priorité du tri',
-                    'currency' => 'devise',
-                    'numbers' => 'nombres',
-                    'timezone' => 'Fuseau horaire',
-                    'va' => 'Variante locale',
-                    'variableTop' => 'Trier en tant que symboles',
-                    'x' => 'Usage privé'
-                ),
-                'types' => array(
-                    'calendar' => array(
-                        'buddhist' => 'Calendrier bouddhiste',
-                        'chinese' => 'Calendrier chinois',
-                        'coptic' => 'Calendrier copte',
-                        'dangi' => 'dangi',
-                        'ethiopic' => 'Calendrier éthiopien',
-                        'ethiopic-amete-alem' => 'Calendrier éthiopien Amete Alem',
-                        'gregorian' => 'calendrier grégorien',
-                        'hebrew' => 'Calendrier hébraïque',
-                        'indian' => 'Calendrier indien',
-                        'islamic' => 'calendrier musulman',
-                        'islamic-civil' => 'calendrier civil musulman',
-                        'iso8601' => 'iso8601',
-                        'japanese' => 'Calendrier japonais',
-                        'persian' => 'Calendrier persan',
-                        'roc' => 'Calendrier républicain chinois'
-                    ),
-                    'collation' => array(
-                        'standard' => 'standard',
-                        'traditional' => 'Ordre traditionnel',
-                        'big5han' => 'Ordre chinois traditionnel - Big5',
-                        'dictionary' => 'Ordre du dictionnaire',
-                        'ducet' => 'ordre Unicode par défaut',
-                        'gb2312han' => 'Ordre chinois simplifié - GB2312',
-                        'phonebook' => 'Ordre de l’annuaire',
-                        'phonetic' => 'Ordre de tri phonétique',
-                        'pinyin' => 'Ordre pinyin',
-                        'reformed' => 'Ordre réformé',
-                        'search' => 'recherche générique',
-                        'searchjl' => 'Rechercher par consonne initiale en hangeul',
-                        'stroke' => 'Ordre des traits',
-                        'unihan' => 'Ordre par radical et nombre de traits',
-                        'zhuyin' => 'zhuyin'
-                    ),
-                    'numbers' => array(
-                        'native' => 'Chiffres natifs',
-                        'traditional' => 'Chiffres traditionnels',
-                        'finance' => 'Chiffres financiers',
-                        'arab' => 'chiffres arabes',
-                        'arabext' => 'chiffres arabes étendus',
-                        'armn' => 'chiffres arméniens',
-                        'armnlow' => 'chiffres arméniens minuscules',
-                        'bali' => 'chiffres balinais',
-                        'beng' => 'chiffres bengalis',
-                        'brah' => 'brah',
-                        'cakm' => 'cakm',
-                        'cham' => 'chiffres chams',
-                        'deva' => 'chiffres devanagaris',
-                        'ethi' => 'chiffres éthiopiens',
-                        'fullwide' => 'chiffres pleine chasse',
-                        'geor' => 'chiffres géorgiens',
-                        'grek' => 'chiffres grecs',
-                        'greklow' => 'chiffres grecs minuscules',
-                        'gujr' => 'chiffres goudjarâtîs',
-                        'guru' => 'chiffres gourmoukhîs',
-                        'hanidec' => 'nombres décimaux chinois',
-                        'hans' => 'chiffres en chinois simplifié',
-                        'hansfin' => 'chiffres financiers en chinois simplifié',
-                        'hant' => 'chiffres en chinois traditionnel',
-                        'hantfin' => 'chiffres financiers en chinois traditionnel',
-                        'hebr' => 'chiffres hébreux',
-                        'java' => 'chiffres javanais',
-                        'jpan' => 'chiffres japonais',
-                        'jpanfin' => 'chiffres japonais financiers',
-                        'kali' => 'chiffres kayah li',
-                        'khmr' => 'chiffres khmers',
-                        'knda' => 'Chiffres en kannada',
-                        'lana' => 'chiffres hora lannas',
-                        'lanatham' => 'chiffres tham lannas',
-                        'laoo' => 'chiffres laotiens',
-                        'latn' => 'chiffres occidentaux',
-                        'lepc' => 'chiffres lepchas',
-                        'limb' => 'chiffres limbous',
-                        'mlym' => 'chiffres malayâlams',
-                        'mong' => 'chiffres mongols',
-                        'mtei' => 'chiffres meitei-mayeks',
-                        'mymr' => 'chiffres birmans',
-                        'mymrshan' => 'chiffres shans birmans',
-                        'nkoo' => 'chiffres n’kos',
-                        'olck' => 'chiffres ol-tchikis',
-                        'orya' => 'chiffres oriyas',
-                        'osma' => 'osma',
-                        'roman' => 'chiffres romains',
-                        'romanlow' => 'chiffres romains minuscules',
-                        'saur' => 'chiffres saurashtras',
-                        'shrd' => 'shrd',
-                        'sora' => 'sora',
-                        'sund' => 'chiffres soundanais',
-                        'takr' => 'takr',
-                        'talu' => 'chiffres néo-taï-luës',
-                        'taml' => 'chiffres tamouls',
-                        'tamldec' => 'chiffres tamouls',
-                        'telu' => 'chiffres télougous',
-                        'thai' => 'chiffres thaïs',
-                        'tibt' => 'chiffres tibétains',
-                        'vaii' => 'Chiffres en vaï'
-                    ),
-                    'colAlternate' => array(
-                        'non-ignorable' => 'Trier les symboles',
-                        'shifted' => 'Trier en ignorant les symboles'
-                    ),
-                    'colBackwards' => array(
-                        'no' => 'Trier les caractères accentués normalement',
-                        'yes' => 'Trier les caractères accentués dans l\'ordre inverse'
-                    ),
-                    'colCaseFirst' => array(
-                        'lower' => 'Trier avec les minuscules d\'abord',
-                        'no' => 'Trier sans ordre lié à la casse',
-                        'upper' => 'Trier avec les majuscules d\'abord'
-                    ),
-                    'colCaseLevel' => array(
-                        'no' => 'Trier sans tenir compte de la casse',
-                        'yes' => 'Trier en tenant compte de la casse'
-                    ),
-                    'colHiraganaQuaternary' => array(
-                        'no' => 'Trier les caractères Kana séparément',
-                        'yes' => 'Trier les caractères Kana différemment'
-                    ),
-                    'colNormalization' => array(
-                        'no' => 'Trier sans normalisation',
-                        'yes' => 'Trier avec normalisation Unicode'
-                    ),
-                    'colNumeric' => array(
-                        'no' => 'Trier les chiffres individuellement',
-                        'yes' => 'Trier les chiffres par ordre numérique'
-                    ),
-                    'colStrength' => array(
-                        'identical' => 'Tout trier',
-                        'primary' => 'Ne trier que les lettres de base',
-                        'quaternary' => 'Trier en tenant compte des caractères accentués, de la casse, de la largeur et des caractères Kana',
-                        'secondary' => 'Trier en tenant compte des caractères accentués',
-                        'tertiary' => 'Trier en tenant compte des caractères accentués, de la casse et de la largeur'
-                    )
-                ),
-                'codePatterns' => array(
-                    'language' => 'langue : {0}',
-                    'script' => 'écriture : {0}',
-                    'territory' => 'région : {0}'
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'fr' => 
+    array (
+      'localeDisplayNames' => 
+      array (
+        'localeDisplayPattern' => 
+        array (
+          'localePattern' => '{0} ({1})',
+          'localeSeparator' => '{0}, {1}',
+          'localeKeyTypePattern' => '{0} : {1}',
+        ),
+        'keys' => 
+        array (
+          'calendar' => 'calendrier',
+          'colAlternate' => 'Tri ne tenant pas compte des symboles',
+          'colBackwards' => 'Tri inversé des caractères accentués',
+          'colCaseFirst' => 'Classement basé sur les majuscules et les minuscules',
+          'colCaseLevel' => 'Tri sensible à la casse',
+          'colHiraganaQuaternary' => 'Tri des caractères Kana',
+          'colNormalization' => 'Tri normalisé',
+          'colNumeric' => 'Tri numérique',
+          'colStrength' => 'Priorité du tri',
+          'collation' => 'ordre de tri',
+          'currency' => 'devise',
+          'numbers' => 'nombres',
+          'timezone' => 'Fuseau horaire',
+          'va' => 'Variante locale',
+          'variableTop' => 'Trier en tant que symboles',
+          'x' => 'Usage privé',
+        ),
+        'types' => 
+        array (
+          'numbers' => 
+          array (
+            'vaii' => 'Chiffres en vaï',
+          ),
+          'collation' => 
+          array (
+            'zhuyin' => 'ordre zhuyin',
+          ),
+          'calendar' => 
+          array (
+            'roc' => 'calendrier républicain chinois',
+          ),
+          'colStrength' => 
+          array (
+            'tertiary' => 'Trier en tenant compte des caractères accentués, de la casse et de la largeur',
+          ),
+          'colCaseFirst' => 
+          array (
+            'upper' => 'Trier avec les majuscules d’abord',
+          ),
+          'colBackwards' => 
+          array (
+            'yes' => 'Trier les caractères accentués dans l’ordre inverse',
+          ),
+          'colCaseLevel' => 
+          array (
+            'yes' => 'Trier en tenant compte de la casse',
+          ),
+          'colHiraganaQuaternary' => 
+          array (
+            'yes' => 'Trier les caractères Kana différemment',
+          ),
+          'colNormalization' => 
+          array (
+            'yes' => 'Trier avec normalisation Unicode',
+          ),
+          'colNumeric' => 
+          array (
+            'yes' => 'Trier les chiffres par ordre numérique',
+          ),
+          'colAlternate' => 
+          array (
+            'shifted' => 'Trier en ignorant les symboles',
+          ),
+        ),
+        'codePatterns' => 
+        array (
+          'language' => 'langue : {0}',
+          'script' => 'écriture : {0}',
+          'territory' => 'région : {0}',
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

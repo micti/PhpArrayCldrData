@@ -1,16 +1,21 @@
-<?php
-$data = array(
-    'main' => array(
-        'pt' => array(
-            'localeDisplayNames' => array(
-                'measurementSystemNames' => array(
-                    'metric' => 'métrico',
-                    'UK' => 'Reino Unido',
-                    'US' => 'americano'
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'pt' => 
+    array (
+      'localeDisplayNames' => 
+      array (
+        'measurementSystemNames' => 
+        array (
+          'US' => 'americano',
+          'metric' => 'métrico',
+          'UK' => 'inglês',
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

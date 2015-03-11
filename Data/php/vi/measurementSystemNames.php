@@ -1,16 +1,21 @@
-<?php
-$data = array(
-    'main' => array(
-        'vi' => array(
-            'localeDisplayNames' => array(
-                'measurementSystemNames' => array(
-                    'metric' => 'Hệ mét',
-                    'UK' => 'Vương Quốc Anh',
-                    'US' => 'Hoa Kỳ'
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'vi' => 
+    array (
+      'localeDisplayNames' => 
+      array (
+        'measurementSystemNames' => 
+        array (
+          'US' => 'Hệ Mỹ',
+          'metric' => 'Hệ mét',
+          'UK' => 'Hệ Anh',
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

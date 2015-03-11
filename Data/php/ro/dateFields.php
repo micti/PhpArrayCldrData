@@ -1,60 +1,598 @@
-<?php
-$data = array(
-    'main' => array(
-        'ro' => array(
-            'dates' => array(
-                'fields' => array(
-                    'era' => array(
-                        'displayName' => 'eră'
-                    ),
-                    'year' => array(
-                        'displayName' => 'an',
-                        -1 => 'Anul trecut',
-                        0 => 'Anul acesta',
-                        1 => 'Anul viitor'
-                    ),
-                    'month' => array(
-                        'displayName' => 'lună',
-                        -1 => 'Luna trecută',
-                        0 => 'Luna aceasta',
-                        1 => 'Luna viitoare'
-                    ),
-                    'week' => array(
-                        'displayName' => 'săptămână',
-                        -1 => 'Săptămâna trecută',
-                        0 => 'Săptămâna aceasta',
-                        1 => 'Săptămâna viitoare'
-                    ),
-                    'day' => array(
-                        'displayName' => 'zi',
-                        -2 => 'alaltăieri',
-                        -1 => 'ieri',
-                        0 => 'azi',
-                        1 => 'mâine',
-                        2 => 'poimâine'
-                    ),
-                    'weekday' => array(
-                        'displayName' => 'zi a săptămânii'
-                    ),
-                    'dayperiod' => array(
-                        'displayName' => 'perioada zilei'
-                    ),
-                    'hour' => array(
-                        'displayName' => 'oră'
-                    ),
-                    'minute' => array(
-                        'displayName' => 'minut'
-                    ),
-                    'second' => array(
-                        'displayName' => 'secundă'
-                    ),
-                    'zone' => array(
-                        'displayName' => 'zonă'
-                    )
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'ro' => 
+    array (
+      'dates' => 
+      array (
+        'fields' => 
+        array (
+          'era' => 
+          array (
+            'displayName' => 'Eră',
+          ),
+          'year' => 
+          array (
+            'displayName' => 'An',
+            'relative-type--1' => 'anul trecut',
+            'relative-type-0' => 'anul acesta',
+            'relative-type-1' => 'anul viitor',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} an',
+              'relativeTimePattern-count-few' => 'peste {0} ani',
+              'relativeTimePattern-count-other' => 'peste {0} de ani',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} an',
+              'relativeTimePattern-count-few' => 'acum {0} ani',
+              'relativeTimePattern-count-other' => 'acum {0} de ani',
+            ),
+          ),
+          'year-short' => 
+          array (
+            'displayName' => 'an',
+            'relative-type--1' => 'anul trecut',
+            'relative-type-0' => 'anul acesta',
+            'relative-type-1' => 'anul viitor',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} an',
+              'relativeTimePattern-count-few' => 'peste {0} ani',
+              'relativeTimePattern-count-other' => 'peste {0} ani',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} an',
+              'relativeTimePattern-count-few' => 'acum {0} ani',
+              'relativeTimePattern-count-other' => 'acum {0} de ani',
+            ),
+          ),
+          'year-narrow' => 
+          array (
+            'displayName' => 'an',
+            'relative-type--1' => 'anul trecut',
+            'relative-type-0' => 'anul acesta',
+            'relative-type-1' => 'anul viitor',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} an',
+              'relativeTimePattern-count-few' => '+{0} ani',
+              'relativeTimePattern-count-other' => '+{0} ani',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} an',
+              'relativeTimePattern-count-few' => '-{0} ani',
+              'relativeTimePattern-count-other' => '-{0} ani',
+            ),
+          ),
+          'quarter' => 
+          array (
+            'displayName' => 'Trimestru',
+            'relative-type--1' => 'last quarter',
+            'relative-type-0' => 'this quarter',
+            'relative-type-1' => 'next quarter',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} trimestru',
+              'relativeTimePattern-count-few' => 'peste {0} trimestre',
+              'relativeTimePattern-count-other' => 'peste {0} de trimestre',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} trimestru',
+              'relativeTimePattern-count-few' => 'acum {0} trimestre',
+              'relativeTimePattern-count-other' => 'acum {0} de trimestre',
+            ),
+          ),
+          'quarter-short' => 
+          array (
+            'displayName' => 'trim.',
+            'relative-type--1' => 'last quarter',
+            'relative-type-0' => 'this quarter',
+            'relative-type-1' => 'next quarter',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} trim.',
+              'relativeTimePattern-count-few' => 'peste {0} trim.',
+              'relativeTimePattern-count-other' => 'peste {0} trim.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} trim.',
+              'relativeTimePattern-count-few' => 'acum {0} trim.',
+              'relativeTimePattern-count-other' => 'acum {0} trim.',
+            ),
+          ),
+          'quarter-narrow' => 
+          array (
+            'displayName' => 'trim.',
+            'relative-type--1' => 'last quarter',
+            'relative-type-0' => 'this quarter',
+            'relative-type-1' => 'next quarter',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} trim.',
+              'relativeTimePattern-count-few' => '+{0} trim.',
+              'relativeTimePattern-count-other' => '+{0} trim.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} trim.',
+              'relativeTimePattern-count-few' => '+{0} trim.',
+              'relativeTimePattern-count-other' => '+{0} trim.',
+            ),
+          ),
+          'month' => 
+          array (
+            'displayName' => 'Lună',
+            'relative-type--1' => 'luna trecută',
+            'relative-type-0' => 'luna aceasta',
+            'relative-type-1' => 'luna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} lună',
+              'relativeTimePattern-count-few' => 'peste {0} luni',
+              'relativeTimePattern-count-other' => 'peste {0} de luni',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} lună',
+              'relativeTimePattern-count-few' => 'acum {0} luni',
+              'relativeTimePattern-count-other' => 'acum {0} de luni',
+            ),
+          ),
+          'month-short' => 
+          array (
+            'displayName' => 'lună',
+            'relative-type--1' => 'luna trecută',
+            'relative-type-0' => 'luna aceasta',
+            'relative-type-1' => 'luna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} lună',
+              'relativeTimePattern-count-few' => 'peste {0} luni',
+              'relativeTimePattern-count-other' => 'peste {0} luni',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} lună',
+              'relativeTimePattern-count-few' => 'acum {0} luni',
+              'relativeTimePattern-count-other' => 'acum {0} luni',
+            ),
+          ),
+          'month-narrow' => 
+          array (
+            'displayName' => 'lună',
+            'relative-type--1' => 'luna trecută',
+            'relative-type-0' => 'luna aceasta',
+            'relative-type-1' => 'luna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} lună',
+              'relativeTimePattern-count-few' => '+{0} luni',
+              'relativeTimePattern-count-other' => '+{0} luni',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} lună',
+              'relativeTimePattern-count-few' => '-{0} luni',
+              'relativeTimePattern-count-other' => '-{0} luni',
+            ),
+          ),
+          'week' => 
+          array (
+            'displayName' => 'Săptămână',
+            'relative-type--1' => 'săptămâna trecută',
+            'relative-type-0' => 'săptămâna aceasta',
+            'relative-type-1' => 'săptămâna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} săptămână',
+              'relativeTimePattern-count-few' => 'peste {0} săptămâni',
+              'relativeTimePattern-count-other' => 'peste {0} de săptămâni',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} săptămână',
+              'relativeTimePattern-count-few' => 'acum {0} săptămâni',
+              'relativeTimePattern-count-other' => 'acum {0} de săptămâni',
+            ),
+          ),
+          'week-short' => 
+          array (
+            'displayName' => 'săpt.',
+            'relative-type--1' => 'săptămâna trecută',
+            'relative-type-0' => 'săptămâna aceasta',
+            'relative-type-1' => 'săptămâna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} săpt.',
+              'relativeTimePattern-count-few' => 'peste {0} săpt.',
+              'relativeTimePattern-count-other' => 'peste {0} săpt.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} săpt.',
+              'relativeTimePattern-count-few' => 'acum {0} săpt.',
+              'relativeTimePattern-count-other' => 'acum {0} săpt.',
+            ),
+          ),
+          'week-narrow' => 
+          array (
+            'displayName' => 'săpt.',
+            'relative-type--1' => 'săptămâna trecută',
+            'relative-type-0' => 'săptămâna aceasta',
+            'relative-type-1' => 'săptămâna viitoare',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} săpt.',
+              'relativeTimePattern-count-few' => '+{0} săpt.',
+              'relativeTimePattern-count-other' => '+{0} săpt.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} săpt.',
+              'relativeTimePattern-count-few' => '-{0} săpt.',
+              'relativeTimePattern-count-other' => '-{0} săpt.',
+            ),
+          ),
+          'day' => 
+          array (
+            'displayName' => 'Zi',
+            'relative-type--1' => 'ieri',
+            'relative-type--2' => 'alaltăieri',
+            'relative-type-0' => 'azi',
+            'relative-type-1' => 'mâine',
+            'relative-type-2' => 'poimâine',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} zi',
+              'relativeTimePattern-count-few' => 'peste {0} zile',
+              'relativeTimePattern-count-other' => 'peste {0} de zile',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} zi',
+              'relativeTimePattern-count-few' => 'acum {0} zile',
+              'relativeTimePattern-count-other' => 'acum {0} de zile',
+            ),
+          ),
+          'day-short' => 
+          array (
+            'displayName' => 'zi',
+            'relative-type--1' => 'ieri',
+            'relative-type--2' => 'alaltăieri',
+            'relative-type-0' => 'azi',
+            'relative-type-1' => 'mâine',
+            'relative-type-2' => 'poimâine',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} zi',
+              'relativeTimePattern-count-few' => 'peste {0} zile',
+              'relativeTimePattern-count-other' => 'peste {0} zile',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} zi',
+              'relativeTimePattern-count-few' => 'acum {0} zile',
+              'relativeTimePattern-count-other' => 'acum {0} zile',
+            ),
+          ),
+          'day-narrow' => 
+          array (
+            'displayName' => 'zi',
+            'relative-type--1' => 'ieri',
+            'relative-type--2' => 'alaltăieri',
+            'relative-type-0' => 'azi',
+            'relative-type-1' => 'mâine',
+            'relative-type-2' => 'poimâine',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} zi',
+              'relativeTimePattern-count-few' => '+{0} zile',
+              'relativeTimePattern-count-other' => '+{0} zile',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} zi',
+              'relativeTimePattern-count-few' => '-{0} zile',
+              'relativeTimePattern-count-other' => '-{0} zile',
+            ),
+          ),
+          'weekday' => 
+          array (
+            'displayName' => 'Zi a săptămânii',
+          ),
+          'sun' => 
+          array (
+            'relative-type--1' => 'duminica trecută',
+            'relative-type-0' => 'duminica aceasta',
+            'relative-type-1' => 'duminica viitoare',
+          ),
+          'sun-short' => 
+          array (
+            'relative-type--1' => 'dum. trecută',
+            'relative-type-0' => 'dum. aceasta',
+            'relative-type-1' => 'dum. viitoare',
+          ),
+          'sun-narrow' => 
+          array (
+            'relative-type--1' => 'D (trecută)',
+            'relative-type-0' => 'D (aceasta)',
+            'relative-type-1' => 'D (viitoare)',
+          ),
+          'mon' => 
+          array (
+            'relative-type--1' => 'lunea trecută',
+            'relative-type-0' => 'lunea aceasta',
+            'relative-type-1' => 'lunea viitoare',
+          ),
+          'mon-short' => 
+          array (
+            'relative-type--1' => 'lun. trecută',
+            'relative-type-0' => 'lun. aceasta',
+            'relative-type-1' => 'lun. viitoare',
+          ),
+          'mon-narrow' => 
+          array (
+            'relative-type--1' => 'L (trecută)',
+            'relative-type-0' => 'L (aceasta)',
+            'relative-type-1' => 'L (viitoare)',
+          ),
+          'tue' => 
+          array (
+            'relative-type--1' => 'marțea trecută',
+            'relative-type-0' => 'marțea aceasta',
+            'relative-type-1' => 'marțea viitoare',
+          ),
+          'tue-short' => 
+          array (
+            'relative-type--1' => 'mar. trecută',
+            'relative-type-0' => 'mar. aceasta',
+            'relative-type-1' => 'mar. viitoare',
+          ),
+          'tue-narrow' => 
+          array (
+            'relative-type--1' => 'Ma (trecută)',
+            'relative-type-0' => 'Ma (aceasta)',
+            'relative-type-1' => 'Ma (viitoare)',
+          ),
+          'wed' => 
+          array (
+            'relative-type--1' => 'miercurea trecută',
+            'relative-type-0' => 'miercurea aceasta',
+            'relative-type-1' => 'miercurea viitoare',
+          ),
+          'wed-short' => 
+          array (
+            'relative-type--1' => 'mie. trecută',
+            'relative-type-0' => 'mie. aceasta',
+            'relative-type-1' => 'mie. viitoare',
+          ),
+          'wed-narrow' => 
+          array (
+            'relative-type--1' => 'Mi (trecută)',
+            'relative-type-0' => 'Mi (aceasta)',
+            'relative-type-1' => 'Mi (viitoare)',
+          ),
+          'thu' => 
+          array (
+            'relative-type--1' => 'joia trecută',
+            'relative-type-0' => 'joia aceasta',
+            'relative-type-1' => 'joia viitoare',
+          ),
+          'thu-short' => 
+          array (
+            'relative-type--1' => 'joia trecută',
+            'relative-type-0' => 'joia aceasta',
+            'relative-type-1' => 'joia viitoare',
+          ),
+          'thu-narrow' => 
+          array (
+            'relative-type--1' => 'J (trecută)',
+            'relative-type-0' => 'J (aceasta)',
+            'relative-type-1' => 'J (viitoare)',
+          ),
+          'fri' => 
+          array (
+            'relative-type--1' => 'vinerea trecută',
+            'relative-type-0' => 'vinerea aceasta',
+            'relative-type-1' => 'vinerea viitoare',
+          ),
+          'fri-short' => 
+          array (
+            'relative-type--1' => 'vin. trecută',
+            'relative-type-0' => 'vin. aceasta',
+            'relative-type-1' => 'vin. viitoare',
+          ),
+          'fri-narrow' => 
+          array (
+            'relative-type--1' => 'V (trecută)',
+            'relative-type-0' => 'V (aceasta)',
+            'relative-type-1' => 'V (viitoare)',
+          ),
+          'sat' => 
+          array (
+            'relative-type--1' => 'sâmbăta trecută',
+            'relative-type-0' => 'sâmbăta aceasta',
+            'relative-type-1' => 'sâmbăta viitoare',
+          ),
+          'sat-short' => 
+          array (
+            'relative-type--1' => 'sâm. trecută',
+            'relative-type-0' => 'sâm. aceasta',
+            'relative-type-1' => 'sâm. viitoare',
+          ),
+          'sat-narrow' => 
+          array (
+            'relative-type--1' => 'S (trecută)',
+            'relative-type-0' => 'S (aceasta)',
+            'relative-type-1' => 'S (viitoare)',
+          ),
+          'dayperiod' => 
+          array (
+            'displayName' => 'a.m/p.m.',
+          ),
+          'hour' => 
+          array (
+            'displayName' => 'Oră',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} oră',
+              'relativeTimePattern-count-few' => 'peste {0} ore',
+              'relativeTimePattern-count-other' => 'peste {0} de ore',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} oră',
+              'relativeTimePattern-count-few' => 'acum {0} ore',
+              'relativeTimePattern-count-other' => 'acum {0} de ore',
+            ),
+          ),
+          'hour-short' => 
+          array (
+            'displayName' => 'h',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} h',
+              'relativeTimePattern-count-few' => 'peste {0} h',
+              'relativeTimePattern-count-other' => 'peste {0} h',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} h',
+              'relativeTimePattern-count-few' => 'acum {0} h',
+              'relativeTimePattern-count-other' => 'acum {0} h',
+            ),
+          ),
+          'hour-narrow' => 
+          array (
+            'displayName' => 'h',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} h',
+              'relativeTimePattern-count-few' => '+{0} h',
+              'relativeTimePattern-count-other' => '+{0} h',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} h',
+              'relativeTimePattern-count-few' => '-{0} h',
+              'relativeTimePattern-count-other' => '-{0} h',
+            ),
+          ),
+          'minute' => 
+          array (
+            'displayName' => 'Minut',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} minut',
+              'relativeTimePattern-count-few' => 'peste {0} minute',
+              'relativeTimePattern-count-other' => 'peste {0} de minute',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} minut',
+              'relativeTimePattern-count-few' => 'acum {0} minute',
+              'relativeTimePattern-count-other' => 'acum {0} de minute',
+            ),
+          ),
+          'minute-short' => 
+          array (
+            'displayName' => 'min.',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} min.',
+              'relativeTimePattern-count-few' => 'peste {0} min.',
+              'relativeTimePattern-count-other' => 'peste {0} min.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} min.',
+              'relativeTimePattern-count-few' => 'acum {0} min.',
+              'relativeTimePattern-count-other' => 'acum {0} min.',
+            ),
+          ),
+          'minute-narrow' => 
+          array (
+            'displayName' => 'm',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} m',
+              'relativeTimePattern-count-few' => '+{0} m',
+              'relativeTimePattern-count-other' => '+{0} m',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} m',
+              'relativeTimePattern-count-few' => '-{0} m',
+              'relativeTimePattern-count-other' => '-{0} m',
+            ),
+          ),
+          'second' => 
+          array (
+            'displayName' => 'Secundă',
+            'relative-type-0' => 'acum',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} secundă',
+              'relativeTimePattern-count-few' => 'peste {0} secunde',
+              'relativeTimePattern-count-other' => 'peste {0} de secunde',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} secundă',
+              'relativeTimePattern-count-few' => 'acum {0} secunde',
+              'relativeTimePattern-count-other' => 'acum {0} de secunde',
+            ),
+          ),
+          'second-short' => 
+          array (
+            'displayName' => 'sec.',
+            'relative-type-0' => 'acum',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => 'peste {0} sec.',
+              'relativeTimePattern-count-few' => 'peste {0} sec.',
+              'relativeTimePattern-count-other' => 'peste {0} sec.',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => 'acum {0} sec.',
+              'relativeTimePattern-count-few' => 'acum {0} sec.',
+              'relativeTimePattern-count-other' => 'acum {0} sec.',
+            ),
+          ),
+          'second-narrow' => 
+          array (
+            'displayName' => 's',
+            'relative-type-0' => 'acum',
+            'relativeTime-type-future' => 
+            array (
+              'relativeTimePattern-count-one' => '+{0} s',
+              'relativeTimePattern-count-few' => '+{0} s',
+              'relativeTimePattern-count-other' => '+{0} s',
+            ),
+            'relativeTime-type-past' => 
+            array (
+              'relativeTimePattern-count-one' => '-{0} s',
+              'relativeTimePattern-count-few' => '-{0} s',
+              'relativeTimePattern-count-other' => '-{0} s',
+            ),
+          ),
+          'zone' => 
+          array (
+            'displayName' => 'Fus orar',
+          ),
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

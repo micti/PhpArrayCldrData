@@ -1,23 +1,28 @@
-<?php
-$data = array(
-    'main' => array(
-        'fi' => array(
-            'localeDisplayNames' => array(
-                'transformNames' => array(
-                    'BGN' => 'BGN',
-                    'Numeric' => 'Numerot',
-                    'Tone' => 'Sävy',
-                    'UNGEGN' => 'UNGEGN',
-                    'x-Accents' => 'Aksenttimerkit',
-                    'x-Fullwidth' => 'Leveä',
-                    'x-Halfwidth' => 'Kapea',
-                    'x-Jamo' => 'Jamo',
-                    'x-Pinyin' => 'Pinyin',
-                    'x-Publishing' => 'Julkaisu'
-                )
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'fi' => 
+    array (
+      'localeDisplayNames' => 
+      array (
+        'transformNames' => 
+        array (
+          'BGN' => 'BGN-latinaistus',
+          'Numeric' => 'numeerinen muunnos',
+          'Tone' => 'tooni',
+          'UNGEGN' => 'UNGEGN-latinaistus',
+          'x-Accents' => 'aksenttimerkit',
+          'x-Fullwidth' => 'ideogrammin levyinen',
+          'x-Halfwidth' => 'ideogrammin puolikkaan levyinen',
+          'x-Jamo' => 'jamo',
+          'x-Pinyin' => 'pinyin-latinaistus',
+          'x-Publishing' => 'julkaisuvalinta',
+        ),
+      ),
+    ),
+  ),
 );
 
 return $data;

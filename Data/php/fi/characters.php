@@ -1,21 +1,29 @@
-<?php
-$data = array(
-    'main' => array(
-        'fi' => array(
-            'characters' => array(
-                'exemplarCharacters' => '[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]',
-                'auxiliary' => '[á à â ã č ç đ é è ê ë ǧ ǥ ȟ í î ï ǩ ń ñ ŋ ô õ œ ř ß ŧ ú ù û ÿ ü ʒ ǯ æ ø]',
-                'index' => '[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]',
-                'punctuation' => '[\\- ‐ – , ; \\: ! ? . … ’ ” ( ) \\[ \\] § @ * / \\& #]',
-                'ellipsis' => array(
-                    'final' => '{0}…',
-                    'initial' => '…{0}',
-                    'medial' => '{0}…{1}'
-                ),
-                'moreInformation' => '?'
-            )
-        )
-    )
+<?php 
+
+$data = array (
+  'main' => 
+  array (
+    'fi' => 
+    array (
+      'characters' => 
+      array (
+        'exemplarCharacters' => '[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]',
+        'auxiliary' => '[á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ß ť ţ ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]',
+        'punctuation' => '[‐ – , ; \\: ! ? . … ’ ” » ( ) \\[ \\] § @ * / \\\\ \\& #]',
+        'index' => '[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]',
+        'ellipsis' => 
+        array (
+          'initial' => '…{0}',
+          'medial' => '{0}…{1}',
+          'final' => '{0}…',
+          'word-initial' => '…{0}',
+          'word-medial' => '{0}… {1}',
+          'word-final' => '{0}…',
+        ),
+        'moreInformation' => '?',
+      ),
+    ),
+  ),
 );
 
 return $data;

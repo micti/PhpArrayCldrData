@@ -2,8 +2,8 @@
 
 require 'function.php';
 
-$jsonDataDir = '/WebServer/CLDR/json/main';
-$jsonSupplementalDataDir = '/WebServer/CLDR/json/supplemental';
+$jsonDataDir = '/home/nhatanh/Downloads/main';
+$jsonSupplementalDataDir = '/home/nhatanh/Downloads/supplemental';
 $phpDataDir = 'Data/php';
 $fileMode = 0666;
 $locale = array(
