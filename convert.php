@@ -13,7 +13,7 @@ echo 'Main data' . '</br>' . PHP_EOL;
 foreach ($locale as $l) {
 
     if (!is_dir($phpDataDir . DIRECTORY_SEPARATOR . $l)) {
-        mkdir($phpDataDir . DIRECTORY_SEPARATOR . $l, 0777);
+        mkdir($phpDataDir . DIRECTORY_SEPARATOR . $l);
     }
 
     foreach ($field as $f) {
@@ -27,21 +27,19 @@ foreach ($locale as $l) {
 
             // Process data
             unset($data['main'][$l]['identity']);
-            if ($skiplocaleindex) {
-                $data = $data['main'][$l];
-            }
+            $data = $data['main'][$l];
 
             // Save new php array data
-            makeDataFile($phpFile, $data, $fileMode);
+            makeDataFile($phpFile, $data);
 
-            echo '[+] ' . $l . ' : ' . $f . '</br>' . PHP_EOL;
+            echo '[+] ' . $l . ' : ' . $f . PHP_EOL;
         } else {
-            echo '[-] ' . $l . ' : ' . $f . '</br>' . PHP_EOL;
+            echo '[-] ' . $l . ' : ' . $f . PHP_EOL;
         }
     }
 }
 
-echo '</br>' . PHP_EOL . 'Main data' . '</br>' . PHP_EOL;
+echo PHP_EOL . 'Main data' . PHP_EOL;
 
 foreach ($supplemental as $s) {
 
@@ -56,16 +54,27 @@ foreach ($supplemental as $s) {
         // Process data
         unset($data['supplemental']['version']);
         unset($data['supplemental']['generation']);
-        if ($skipsupplementalindex) {
-            $data = $data['supplemental'][$s];
+
+        if ($s == 'characterFallbacks') {
+            $ri = 'characters';
+        } elseif ($s == 'dayPeriods') {
+            $ri = 'dayPeriodRuleSet';
+        } elseif ($s == 'ordinals') {
+            $ri = 'plurals-type-ordinal';
+        } elseif ($s == 'plurals') {
+            $ri = 'plurals-type-cardinal';
+        } else {
+            $ri = $s;
         }
 
-        // Save new php array data
-        makeDataFile($phpFile, $data, $fileMode);
+        $data = $data['supplemental'][$ri];
 
-        echo '[+] ' . $s . '</br>' . PHP_EOL;
+        // Save new php array data
+        makeDataFile($phpFile, $data);
+
+        echo '[+] ' . $s . PHP_EOL;
     } else {
-        echo '[-] ' . $s . '</br>' . PHP_EOL;
+        echo '[-] ' . $s . PHP_EOL;
     }
 }
 

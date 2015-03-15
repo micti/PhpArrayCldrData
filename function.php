@@ -42,11 +42,13 @@ function readJsonFile($filename) {
  * @param array $array
  * @param int $mode
  */
-function makeDataFile($filename, $array, $mode) {
+function makeDataFile($filename, $array) {
     $content = '<?php ' . PHP_EOL . PHP_EOL;
-    $content .= '$data = ' . var_export($array, true) . ';' . PHP_EOL . PHP_EOL;
-    $content .= 'return $data;' . PHP_EOL;
+    $content .= 'return ' . var_export($array, true) . ';' . PHP_EOL;
+    
+    $content = preg_replace('/ => \n(.*)array \(/i', ' => [', $content);
+    $content = str_replace('array (', '[', $content);
+    $content = str_replace(')', ']', $content);
 
     file_put_contents($filename, $content);
-    chmod($filename, $mode);
 }
