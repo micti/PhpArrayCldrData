@@ -1,21 +1,11 @@
 <?php 
 
-$data = array (
-  'main' => 
-  array (
-    'en-HK' => 
-    array (
-      'localeDisplayNames' => 
-      array (
-        'measurementSystemNames' => 
-        array (
-          'US' => 'US',
-          'metric' => 'Metric',
-          'UK' => 'UK',
-        ),
-      ),
-    ),
-  ),
-);
-
-return $data;
+return [
+  'localeDisplayNames' => [
+    'measurementSystemNames' => [
+      'US' => 'US',
+      'metric' => 'Metric',
+      'UK' => 'UK',
+    ],
+  ],
+];

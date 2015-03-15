@@ -1,19 +1,10 @@
 <?php 
 
-$data = array (
-  'main' => 
-  array (
-    'es' => 
-    array (
-      'delimiters' => 
-      array (
-        'quotationStart' => '«',
-        'quotationEnd' => '»',
-        'alternateQuotationStart' => '“',
-        'alternateQuotationEnd' => '”',
-      ),
-    ),
-  ),
-);
-
-return $data;
+return [
+  'delimiters' => [
+    'quotationStart' => '«',
+    'quotationEnd' => '»',
+    'alternateQuotationStart' => '“',
+    'alternateQuotationEnd' => '”',
+  ],
+];

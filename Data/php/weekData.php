@@ -1,12 +1,7 @@
-<?php 
+<?php
 
-$data = array (
-  'supplemental' => 
-  array (
-    'weekData' => 
-    array (
-      'minDays' => 
-      array (
+return [
+    'minDays' => [
         '001' => '1',
         'GU' => '1',
         'UM' => '1',
@@ -55,9 +50,8 @@ $data = array (
         'SK' => '4',
         'SM' => '4',
         'VA' => '4',
-      ),
-      'firstDay' => 
-      array (
+    ],
+    'firstDay' => [
         '001' => 'mon',
         'AD' => 'mon',
         'AI' => 'mon',
@@ -210,13 +204,11 @@ $data = array (
         'ZW' => 'sun',
         'BD' => 'fri',
         'MV' => 'fri',
-      ),
-      'firstDay-alt-variant' => 
-      array (
+    ],
+    'firstDay-alt-variant' => [
         'GB' => 'sun',
-      ),
-      'weekendStart' => 
-      array (
+    ],
+    'weekendStart' => [
         '001' => 'sat',
         'AE' => 'fri',
         'BH' => 'fri',
@@ -238,9 +230,8 @@ $data = array (
         'YE' => 'fri',
         'AF' => 'thu',
         'IN' => 'sun',
-      ),
-      'weekendEnd' => 
-      array (
+    ],
+    'weekendEnd' => [
         '001' => 'sun',
         'AE' => 'sat',
         'BH' => 'sat',
@@ -261,9 +252,5 @@ $data = array (
         'YE' => 'sat',
         'AF' => 'fri',
         'IR' => 'fri',
-      ),
-    ),
-  ),
-);
-
-return $data;
+    ],
+];

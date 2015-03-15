@@ -1,3183 +1,2386 @@
 <?php 
 
-$data = array (
-  'main' => 
-  array (
-    'en-AU' => 
-    array (
-      'dates' => 
-      array (
-        'timeZoneNames' => 
-        array (
-          'hourFormat' => '+HH:mm;-HH:mm',
-          'gmtFormat' => 'GMT{0}',
-          'gmtZeroFormat' => 'GMT',
-          'regionFormat' => '{0} Time',
-          'regionFormat-type-standard' => '{0} Standard Time',
-          'regionFormat-type-daylight' => '{0} Daylight Time',
-          'fallbackFormat' => '{1} ({0})',
-          'zone' => 
-          array (
-            'America' => 
-            array (
-              'Adak' => 
-              array (
-                'exemplarCity' => 'Adak',
-              ),
-              'Anchorage' => 
-              array (
-                'exemplarCity' => 'Anchorage',
-              ),
-              'Anguilla' => 
-              array (
-                'exemplarCity' => 'Anguilla',
-              ),
-              'Antigua' => 
-              array (
-                'exemplarCity' => 'Antigua',
-              ),
-              'Araguaina' => 
-              array (
-                'exemplarCity' => 'Araguaina',
-              ),
-              'Argentina' => 
-              array (
-                'La_Rioja' => 
-                array (
-                  'exemplarCity' => 'La Rioja',
-                ),
-                'Rio_Gallegos' => 
-                array (
-                  'exemplarCity' => 'Rio Gallegos',
-                ),
-                'Salta' => 
-                array (
-                  'exemplarCity' => 'Salta',
-                ),
-                'San_Juan' => 
-                array (
-                  'exemplarCity' => 'San Juan',
-                ),
-                'San_Luis' => 
-                array (
-                  'exemplarCity' => 'San Luis',
-                ),
-                'Tucuman' => 
-                array (
-                  'exemplarCity' => 'Tucuman',
-                ),
-                'Ushuaia' => 
-                array (
-                  'exemplarCity' => 'Ushuaia',
-                ),
-              ),
-              'Aruba' => 
-              array (
-                'exemplarCity' => 'Aruba',
-              ),
-              'Asuncion' => 
-              array (
-                'exemplarCity' => 'Asunción',
-              ),
-              'Bahia' => 
-              array (
-                'exemplarCity' => 'Bahia',
-              ),
-              'Bahia_Banderas' => 
-              array (
-                'exemplarCity' => 'Bahia Banderas',
-              ),
-              'Barbados' => 
-              array (
-                'exemplarCity' => 'Barbados',
-              ),
-              'Belem' => 
-              array (
-                'exemplarCity' => 'Belem',
-              ),
-              'Belize' => 
-              array (
-                'exemplarCity' => 'Belize',
-              ),
-              'Blanc-Sablon' => 
-              array (
-                'exemplarCity' => 'Blanc-Sablon',
-              ),
-              'Boa_Vista' => 
-              array (
-                'exemplarCity' => 'Boa Vista',
-              ),
-              'Bogota' => 
-              array (
-                'exemplarCity' => 'Bogota',
-              ),
-              'Boise' => 
-              array (
-                'exemplarCity' => 'Boise',
-              ),
-              'Buenos_Aires' => 
-              array (
-                'exemplarCity' => 'Buenos Aires',
-              ),
-              'Cambridge_Bay' => 
-              array (
-                'exemplarCity' => 'Cambridge Bay',
-              ),
-              'Campo_Grande' => 
-              array (
-                'exemplarCity' => 'Campo Grande',
-              ),
-              'Cancun' => 
-              array (
-                'exemplarCity' => 'Cancun',
-              ),
-              'Caracas' => 
-              array (
-                'exemplarCity' => 'Caracas',
-              ),
-              'Catamarca' => 
-              array (
-                'exemplarCity' => 'Catamarca',
-              ),
-              'Cayenne' => 
-              array (
-                'exemplarCity' => 'Cayenne',
-              ),
-              'Cayman' => 
-              array (
-                'exemplarCity' => 'Cayman',
-              ),
-              'Chicago' => 
-              array (
-                'exemplarCity' => 'Chicago',
-              ),
-              'Chihuahua' => 
-              array (
-                'exemplarCity' => 'Chihuahua',
-              ),
-              'Coral_Harbour' => 
-              array (
-                'exemplarCity' => 'Atikokan',
-              ),
-              'Cordoba' => 
-              array (
-                'exemplarCity' => 'Cordoba',
-              ),
-              'Costa_Rica' => 
-              array (
-                'exemplarCity' => 'Costa Rica',
-              ),
-              'Creston' => 
-              array (
-                'exemplarCity' => 'Creston',
-              ),
-              'Cuiaba' => 
-              array (
-                'exemplarCity' => 'Cuiaba',
-              ),
-              'Curacao' => 
-              array (
-                'exemplarCity' => 'Curaçao',
-              ),
-              'Danmarkshavn' => 
-              array (
-                'exemplarCity' => 'Danmarkshavn',
-              ),
-              'Dawson' => 
-              array (
-                'exemplarCity' => 'Dawson',
-              ),
-              'Dawson_Creek' => 
-              array (
-                'exemplarCity' => 'Dawson Creek',
-              ),
-              'Denver' => 
-              array (
-                'exemplarCity' => 'Denver',
-              ),
-              'Detroit' => 
-              array (
-                'exemplarCity' => 'Detroit',
-              ),
-              'Dominica' => 
-              array (
-                'exemplarCity' => 'Dominica',
-              ),
-              'Edmonton' => 
-              array (
-                'exemplarCity' => 'Edmonton',
-              ),
-              'Eirunepe' => 
-              array (
-                'exemplarCity' => 'Eirunepe',
-              ),
-              'El_Salvador' => 
-              array (
-                'exemplarCity' => 'El Salvador',
-              ),
-              'Fortaleza' => 
-              array (
-                'exemplarCity' => 'Fortaleza',
-              ),
-              'Glace_Bay' => 
-              array (
-                'exemplarCity' => 'Glace Bay',
-              ),
-              'Godthab' => 
-              array (
-                'exemplarCity' => 'Nuuk',
-              ),
-              'Goose_Bay' => 
-              array (
-                'exemplarCity' => 'Goose Bay',
-              ),
-              'Grand_Turk' => 
-              array (
-                'exemplarCity' => 'Grand Turk',
-              ),
-              'Grenada' => 
-              array (
-                'exemplarCity' => 'Grenada',
-              ),
-              'Guadeloupe' => 
-              array (
-                'exemplarCity' => 'Guadeloupe',
-              ),
-              'Guatemala' => 
-              array (
-                'exemplarCity' => 'Guatemala',
-              ),
-              'Guayaquil' => 
-              array (
-                'exemplarCity' => 'Guayaquil',
-              ),
-              'Guyana' => 
-              array (
-                'exemplarCity' => 'Guyana',
-              ),
-              'Halifax' => 
-              array (
-                'exemplarCity' => 'Halifax',
-              ),
-              'Havana' => 
-              array (
-                'exemplarCity' => 'Havana',
-              ),
-              'Hermosillo' => 
-              array (
-                'exemplarCity' => 'Hermosillo',
-              ),
-              'Indiana' => 
-              array (
-                'Knox' => 
-                array (
-                  'exemplarCity' => 'Knox, Indiana',
-                ),
-                'Marengo' => 
-                array (
-                  'exemplarCity' => 'Marengo, Indiana',
-                ),
-                'Petersburg' => 
-                array (
-                  'exemplarCity' => 'Petersburg, Indiana',
-                ),
-                'Tell_City' => 
-                array (
-                  'exemplarCity' => 'Tell City, Indiana',
-                ),
-                'Vevay' => 
-                array (
-                  'exemplarCity' => 'Vevay, Indiana',
-                ),
-                'Vincennes' => 
-                array (
-                  'exemplarCity' => 'Vincennes, Indiana',
-                ),
-                'Winamac' => 
-                array (
-                  'exemplarCity' => 'Winamac, Indiana',
-                ),
-              ),
-              'Indianapolis' => 
-              array (
-                'exemplarCity' => 'Indianapolis',
-              ),
-              'Inuvik' => 
-              array (
-                'exemplarCity' => 'Inuvik',
-              ),
-              'Iqaluit' => 
-              array (
-                'exemplarCity' => 'Iqaluit',
-              ),
-              'Jamaica' => 
-              array (
-                'exemplarCity' => 'Jamaica',
-              ),
-              'Jujuy' => 
-              array (
-                'exemplarCity' => 'Jujuy',
-              ),
-              'Juneau' => 
-              array (
-                'exemplarCity' => 'Juneau',
-              ),
-              'Kentucky' => 
-              array (
-                'Monticello' => 
-                array (
-                  'exemplarCity' => 'Monticello, Kentucky',
-                ),
-              ),
-              'Kralendijk' => 
-              array (
-                'exemplarCity' => 'Kralendijk',
-              ),
-              'La_Paz' => 
-              array (
-                'exemplarCity' => 'La Paz',
-              ),
-              'Lima' => 
-              array (
-                'exemplarCity' => 'Lima',
-              ),
-              'Los_Angeles' => 
-              array (
-                'exemplarCity' => 'Los Angeles',
-              ),
-              'Louisville' => 
-              array (
-                'exemplarCity' => 'Louisville',
-              ),
-              'Lower_Princes' => 
-              array (
-                'exemplarCity' => 'Lower Prince’s Quarter',
-              ),
-              'Maceio' => 
-              array (
-                'exemplarCity' => 'Maceio',
-              ),
-              'Managua' => 
-              array (
-                'exemplarCity' => 'Managua',
-              ),
-              'Manaus' => 
-              array (
-                'exemplarCity' => 'Manaus',
-              ),
-              'Marigot' => 
-              array (
-                'exemplarCity' => 'Marigot',
-              ),
-              'Martinique' => 
-              array (
-                'exemplarCity' => 'Martinique',
-              ),
-              'Matamoros' => 
-              array (
-                'exemplarCity' => 'Matamoros',
-              ),
-              'Mazatlan' => 
-              array (
-                'exemplarCity' => 'Mazatlan',
-              ),
-              'Mendoza' => 
-              array (
-                'exemplarCity' => 'Mendoza',
-              ),
-              'Menominee' => 
-              array (
-                'exemplarCity' => 'Menominee',
-              ),
-              'Merida' => 
-              array (
-                'exemplarCity' => 'Merida',
-              ),
-              'Metlakatla' => 
-              array (
-                'exemplarCity' => 'Metlakatla',
-              ),
-              'Mexico_City' => 
-              array (
-                'exemplarCity' => 'Mexico City',
-              ),
-              'Miquelon' => 
-              array (
-                'exemplarCity' => 'Miquelon',
-              ),
-              'Moncton' => 
-              array (
-                'exemplarCity' => 'Moncton',
-              ),
-              'Monterrey' => 
-              array (
-                'exemplarCity' => 'Monterrey',
-              ),
-              'Montevideo' => 
-              array (
-                'exemplarCity' => 'Montevideo',
-              ),
-              'Montserrat' => 
-              array (
-                'exemplarCity' => 'Montserrat',
-              ),
-              'Nassau' => 
-              array (
-                'exemplarCity' => 'Nassau',
-              ),
-              'New_York' => 
-              array (
-                'exemplarCity' => 'New York',
-              ),
-              'Nipigon' => 
-              array (
-                'exemplarCity' => 'Nipigon',
-              ),
-              'Nome' => 
-              array (
-                'exemplarCity' => 'Nome',
-              ),
-              'Noronha' => 
-              array (
-                'exemplarCity' => 'Noronha',
-              ),
-              'North_Dakota' => 
-              array (
-                'Beulah' => 
-                array (
-                  'exemplarCity' => 'Beulah, North Dakota',
-                ),
-                'Center' => 
-                array (
-                  'exemplarCity' => 'Center, North Dakota',
-                ),
-                'New_Salem' => 
-                array (
-                  'exemplarCity' => 'New Salem, North Dakota',
-                ),
-              ),
-              'Ojinaga' => 
-              array (
-                'exemplarCity' => 'Ojinaga',
-              ),
-              'Panama' => 
-              array (
-                'exemplarCity' => 'Panama',
-              ),
-              'Pangnirtung' => 
-              array (
-                'exemplarCity' => 'Pangnirtung',
-              ),
-              'Paramaribo' => 
-              array (
-                'exemplarCity' => 'Paramaribo',
-              ),
-              'Phoenix' => 
-              array (
-                'exemplarCity' => 'Phoenix',
-              ),
-              'Port-au-Prince' => 
-              array (
-                'exemplarCity' => 'Port-au-Prince',
-              ),
-              'Port_of_Spain' => 
-              array (
-                'exemplarCity' => 'Port of Spain',
-              ),
-              'Porto_Velho' => 
-              array (
-                'exemplarCity' => 'Porto Velho',
-              ),
-              'Puerto_Rico' => 
-              array (
-                'exemplarCity' => 'Puerto Rico',
-              ),
-              'Rainy_River' => 
-              array (
-                'exemplarCity' => 'Rainy River',
-              ),
-              'Rankin_Inlet' => 
-              array (
-                'exemplarCity' => 'Rankin Inlet',
-              ),
-              'Recife' => 
-              array (
-                'exemplarCity' => 'Recife',
-              ),
-              'Regina' => 
-              array (
-                'exemplarCity' => 'Regina',
-              ),
-              'Resolute' => 
-              array (
-                'exemplarCity' => 'Resolute',
-              ),
-              'Rio_Branco' => 
-              array (
-                'exemplarCity' => 'Rio Branco',
-              ),
-              'Santa_Isabel' => 
-              array (
-                'exemplarCity' => 'Santa Isabel',
-              ),
-              'Santarem' => 
-              array (
-                'exemplarCity' => 'Santarem',
-              ),
-              'Santiago' => 
-              array (
-                'exemplarCity' => 'Santiago',
-              ),
-              'Santo_Domingo' => 
-              array (
-                'exemplarCity' => 'Santo Domingo',
-              ),
-              'Sao_Paulo' => 
-              array (
-                'exemplarCity' => 'Sao Paulo',
-              ),
-              'Scoresbysund' => 
-              array (
-                'exemplarCity' => 'Ittoqqortoormiit',
-              ),
-              'Sitka' => 
-              array (
-                'exemplarCity' => 'Sitka',
-              ),
-              'St_Barthelemy' => 
-              array (
-                'exemplarCity' => 'Saint Barthélemy',
-              ),
-              'St_Johns' => 
-              array (
-                'exemplarCity' => 'St. John’s',
-              ),
-              'St_Kitts' => 
-              array (
-                'exemplarCity' => 'St. Kitts',
-              ),
-              'St_Lucia' => 
-              array (
-                'exemplarCity' => 'St. Lucia',
-              ),
-              'St_Thomas' => 
-              array (
-                'exemplarCity' => 'St. Thomas',
-              ),
-              'St_Vincent' => 
-              array (
-                'exemplarCity' => 'St. Vincent',
-              ),
-              'Swift_Current' => 
-              array (
-                'exemplarCity' => 'Swift Current',
-              ),
-              'Tegucigalpa' => 
-              array (
-                'exemplarCity' => 'Tegucigalpa',
-              ),
-              'Thule' => 
-              array (
-                'exemplarCity' => 'Thule',
-              ),
-              'Thunder_Bay' => 
-              array (
-                'exemplarCity' => 'Thunder Bay',
-              ),
-              'Tijuana' => 
-              array (
-                'exemplarCity' => 'Tijuana',
-              ),
-              'Toronto' => 
-              array (
-                'exemplarCity' => 'Toronto',
-              ),
-              'Tortola' => 
-              array (
-                'exemplarCity' => 'Tortola',
-              ),
-              'Vancouver' => 
-              array (
-                'exemplarCity' => 'Vancouver',
-              ),
-              'Whitehorse' => 
-              array (
-                'exemplarCity' => 'Whitehorse',
-              ),
-              'Winnipeg' => 
-              array (
-                'exemplarCity' => 'Winnipeg',
-              ),
-              'Yakutat' => 
-              array (
-                'exemplarCity' => 'Yakutat',
-              ),
-              'Yellowknife' => 
-              array (
-                'exemplarCity' => 'Yellowknife',
-              ),
-            ),
-            'Atlantic' => 
-            array (
-              'Azores' => 
-              array (
-                'exemplarCity' => 'Azores',
-              ),
-              'Bermuda' => 
-              array (
-                'exemplarCity' => 'Bermuda',
-              ),
-              'Canary' => 
-              array (
-                'exemplarCity' => 'Canary',
-              ),
-              'Cape_Verde' => 
-              array (
-                'exemplarCity' => 'Cape Verde',
-              ),
-              'Faeroe' => 
-              array (
-                'exemplarCity' => 'Faroe',
-              ),
-              'Madeira' => 
-              array (
-                'exemplarCity' => 'Madeira',
-              ),
-              'Reykjavik' => 
-              array (
-                'exemplarCity' => 'Reykjavik',
-              ),
-              'South_Georgia' => 
-              array (
-                'exemplarCity' => 'South Georgia',
-              ),
-              'St_Helena' => 
-              array (
-                'exemplarCity' => 'St. Helena',
-              ),
-              'Stanley' => 
-              array (
-                'exemplarCity' => 'Stanley',
-              ),
-            ),
-            'Europe' => 
-            array (
-              'Amsterdam' => 
-              array (
-                'exemplarCity' => 'Amsterdam',
-              ),
-              'Andorra' => 
-              array (
-                'exemplarCity' => 'Andorra',
-              ),
-              'Athens' => 
-              array (
-                'exemplarCity' => 'Athens',
-              ),
-              'Belgrade' => 
-              array (
-                'exemplarCity' => 'Belgrade',
-              ),
-              'Berlin' => 
-              array (
-                'exemplarCity' => 'Berlin',
-              ),
-              'Bratislava' => 
-              array (
-                'exemplarCity' => 'Bratislava',
-              ),
-              'Brussels' => 
-              array (
-                'exemplarCity' => 'Brussels',
-              ),
-              'Bucharest' => 
-              array (
-                'exemplarCity' => 'Bucharest',
-              ),
-              'Budapest' => 
-              array (
-                'exemplarCity' => 'Budapest',
-              ),
-              'Busingen' => 
-              array (
-                'exemplarCity' => 'Busingen',
-              ),
-              'Chisinau' => 
-              array (
-                'exemplarCity' => 'Chisinau',
-              ),
-              'Copenhagen' => 
-              array (
-                'exemplarCity' => 'Copenhagen',
-              ),
-              'Dublin' => 
-              array (
-                'long' => 
-                array (
-                  'daylight' => 'Irish Summer Time',
-                ),
-                'exemplarCity' => 'Dublin',
-              ),
-              'Gibraltar' => 
-              array (
-                'exemplarCity' => 'Gibraltar',
-              ),
-              'Guernsey' => 
-              array (
-                'exemplarCity' => 'Guernsey',
-              ),
-              'Helsinki' => 
-              array (
-                'exemplarCity' => 'Helsinki',
-              ),
-              'Isle_of_Man' => 
-              array (
-                'exemplarCity' => 'Isle of Man',
-              ),
-              'Istanbul' => 
-              array (
-                'exemplarCity' => 'Istanbul',
-              ),
-              'Jersey' => 
-              array (
-                'exemplarCity' => 'Jersey',
-              ),
-              'Kaliningrad' => 
-              array (
-                'exemplarCity' => 'Kaliningrad',
-              ),
-              'Kiev' => 
-              array (
-                'exemplarCity' => 'Kiev',
-              ),
-              'Lisbon' => 
-              array (
-                'exemplarCity' => 'Lisbon',
-              ),
-              'Ljubljana' => 
-              array (
-                'exemplarCity' => 'Ljubljana',
-              ),
-              'London' => 
-              array (
-                'long' => 
-                array (
-                  'daylight' => 'British Summer Time',
-                ),
-                'short' => 
-                array (
-                  'daylight' => 'BST',
-                ),
-                'exemplarCity' => 'London',
-              ),
-              'Luxembourg' => 
-              array (
-                'exemplarCity' => 'Luxembourg',
-              ),
-              'Madrid' => 
-              array (
-                'exemplarCity' => 'Madrid',
-              ),
-              'Malta' => 
-              array (
-                'exemplarCity' => 'Malta',
-              ),
-              'Mariehamn' => 
-              array (
-                'exemplarCity' => 'Mariehamn',
-              ),
-              'Minsk' => 
-              array (
-                'exemplarCity' => 'Minsk',
-              ),
-              'Monaco' => 
-              array (
-                'exemplarCity' => 'Monaco',
-              ),
-              'Moscow' => 
-              array (
-                'exemplarCity' => 'Moscow',
-              ),
-              'Oslo' => 
-              array (
-                'exemplarCity' => 'Oslo',
-              ),
-              'Paris' => 
-              array (
-                'exemplarCity' => 'Paris',
-              ),
-              'Podgorica' => 
-              array (
-                'exemplarCity' => 'Podgorica',
-              ),
-              'Prague' => 
-              array (
-                'exemplarCity' => 'Prague',
-              ),
-              'Riga' => 
-              array (
-                'exemplarCity' => 'Riga',
-              ),
-              'Rome' => 
-              array (
-                'exemplarCity' => 'Rome',
-              ),
-              'Samara' => 
-              array (
-                'exemplarCity' => 'Samara',
-              ),
-              'San_Marino' => 
-              array (
-                'exemplarCity' => 'San Marino',
-              ),
-              'Sarajevo' => 
-              array (
-                'exemplarCity' => 'Sarajevo',
-              ),
-              'Simferopol' => 
-              array (
-                'exemplarCity' => 'Simferopol',
-              ),
-              'Skopje' => 
-              array (
-                'exemplarCity' => 'Skopje',
-              ),
-              'Sofia' => 
-              array (
-                'exemplarCity' => 'Sofia',
-              ),
-              'Stockholm' => 
-              array (
-                'exemplarCity' => 'Stockholm',
-              ),
-              'Tallinn' => 
-              array (
-                'exemplarCity' => 'Tallinn',
-              ),
-              'Tirane' => 
-              array (
-                'exemplarCity' => 'Tirane',
-              ),
-              'Uzhgorod' => 
-              array (
-                'exemplarCity' => 'Uzhgorod',
-              ),
-              'Vaduz' => 
-              array (
-                'exemplarCity' => 'Vaduz',
-              ),
-              'Vatican' => 
-              array (
-                'exemplarCity' => 'Vatican',
-              ),
-              'Vienna' => 
-              array (
-                'exemplarCity' => 'Vienna',
-              ),
-              'Vilnius' => 
-              array (
-                'exemplarCity' => 'Vilnius',
-              ),
-              'Volgograd' => 
-              array (
-                'exemplarCity' => 'Volgograd',
-              ),
-              'Warsaw' => 
-              array (
-                'exemplarCity' => 'Warsaw',
-              ),
-              'Zagreb' => 
-              array (
-                'exemplarCity' => 'Zagreb',
-              ),
-              'Zaporozhye' => 
-              array (
-                'exemplarCity' => 'Zaporozhye',
-              ),
-              'Zurich' => 
-              array (
-                'exemplarCity' => 'Zurich',
-              ),
-            ),
-            'Africa' => 
-            array (
-              'Abidjan' => 
-              array (
-                'exemplarCity' => 'Abidjan',
-              ),
-              'Accra' => 
-              array (
-                'exemplarCity' => 'Accra',
-              ),
-              'Addis_Ababa' => 
-              array (
-                'exemplarCity' => 'Addis Ababa',
-              ),
-              'Algiers' => 
-              array (
-                'exemplarCity' => 'Algiers',
-              ),
-              'Asmera' => 
-              array (
-                'exemplarCity' => 'Asmara',
-              ),
-              'Bamako' => 
-              array (
-                'exemplarCity' => 'Bamako',
-              ),
-              'Bangui' => 
-              array (
-                'exemplarCity' => 'Bangui',
-              ),
-              'Banjul' => 
-              array (
-                'exemplarCity' => 'Banjul',
-              ),
-              'Bissau' => 
-              array (
-                'exemplarCity' => 'Bissau',
-              ),
-              'Blantyre' => 
-              array (
-                'exemplarCity' => 'Blantyre',
-              ),
-              'Brazzaville' => 
-              array (
-                'exemplarCity' => 'Brazzaville',
-              ),
-              'Bujumbura' => 
-              array (
-                'exemplarCity' => 'Bujumbura',
-              ),
-              'Cairo' => 
-              array (
-                'exemplarCity' => 'Cairo',
-              ),
-              'Casablanca' => 
-              array (
-                'exemplarCity' => 'Casablanca',
-              ),
-              'Ceuta' => 
-              array (
-                'exemplarCity' => 'Ceuta',
-              ),
-              'Conakry' => 
-              array (
-                'exemplarCity' => 'Conakry',
-              ),
-              'Dakar' => 
-              array (
-                'exemplarCity' => 'Dakar',
-              ),
-              'Dar_es_Salaam' => 
-              array (
-                'exemplarCity' => 'Dar es Salaam',
-              ),
-              'Djibouti' => 
-              array (
-                'exemplarCity' => 'Djibouti',
-              ),
-              'Douala' => 
-              array (
-                'exemplarCity' => 'Douala',
-              ),
-              'El_Aaiun' => 
-              array (
-                'exemplarCity' => 'El Aaiun',
-              ),
-              'Freetown' => 
-              array (
-                'exemplarCity' => 'Freetown',
-              ),
-              'Gaborone' => 
-              array (
-                'exemplarCity' => 'Gaborone',
-              ),
-              'Harare' => 
-              array (
-                'exemplarCity' => 'Harare',
-              ),
-              'Johannesburg' => 
-              array (
-                'exemplarCity' => 'Johannesburg',
-              ),
-              'Juba' => 
-              array (
-                'exemplarCity' => 'Juba',
-              ),
-              'Kampala' => 
-              array (
-                'exemplarCity' => 'Kampala',
-              ),
-              'Khartoum' => 
-              array (
-                'exemplarCity' => 'Khartoum',
-              ),
-              'Kigali' => 
-              array (
-                'exemplarCity' => 'Kigali',
-              ),
-              'Kinshasa' => 
-              array (
-                'exemplarCity' => 'Kinshasa',
-              ),
-              'Lagos' => 
-              array (
-                'exemplarCity' => 'Lagos',
-              ),
-              'Libreville' => 
-              array (
-                'exemplarCity' => 'Libreville',
-              ),
-              'Lome' => 
-              array (
-                'exemplarCity' => 'Lome',
-              ),
-              'Luanda' => 
-              array (
-                'exemplarCity' => 'Luanda',
-              ),
-              'Lubumbashi' => 
-              array (
-                'exemplarCity' => 'Lubumbashi',
-              ),
-              'Lusaka' => 
-              array (
-                'exemplarCity' => 'Lusaka',
-              ),
-              'Malabo' => 
-              array (
-                'exemplarCity' => 'Malabo',
-              ),
-              'Maputo' => 
-              array (
-                'exemplarCity' => 'Maputo',
-              ),
-              'Maseru' => 
-              array (
-                'exemplarCity' => 'Maseru',
-              ),
-              'Mbabane' => 
-              array (
-                'exemplarCity' => 'Mbabane',
-              ),
-              'Mogadishu' => 
-              array (
-                'exemplarCity' => 'Mogadishu',
-              ),
-              'Monrovia' => 
-              array (
-                'exemplarCity' => 'Monrovia',
-              ),
-              'Nairobi' => 
-              array (
-                'exemplarCity' => 'Nairobi',
-              ),
-              'Ndjamena' => 
-              array (
-                'exemplarCity' => 'Ndjamena',
-              ),
-              'Niamey' => 
-              array (
-                'exemplarCity' => 'Niamey',
-              ),
-              'Nouakchott' => 
-              array (
-                'exemplarCity' => 'Nouakchott',
-              ),
-              'Ouagadougou' => 
-              array (
-                'exemplarCity' => 'Ouagadougou',
-              ),
-              'Porto-Novo' => 
-              array (
-                'exemplarCity' => 'Porto-Novo',
-              ),
-              'Sao_Tome' => 
-              array (
-                'exemplarCity' => 'São Tomé',
-              ),
-              'Tripoli' => 
-              array (
-                'exemplarCity' => 'Tripoli',
-              ),
-              'Tunis' => 
-              array (
-                'exemplarCity' => 'Tunis',
-              ),
-              'Windhoek' => 
-              array (
-                'exemplarCity' => 'Windhoek',
-              ),
-            ),
-            'Asia' => 
-            array (
-              'Aden' => 
-              array (
-                'exemplarCity' => 'Aden',
-              ),
-              'Almaty' => 
-              array (
-                'exemplarCity' => 'Almaty',
-              ),
-              'Amman' => 
-              array (
-                'exemplarCity' => 'Amman',
-              ),
-              'Anadyr' => 
-              array (
-                'exemplarCity' => 'Anadyr',
-              ),
-              'Aqtau' => 
-              array (
-                'exemplarCity' => 'Aqtau',
-              ),
-              'Aqtobe' => 
-              array (
-                'exemplarCity' => 'Aqtobe',
-              ),
-              'Ashgabat' => 
-              array (
-                'exemplarCity' => 'Ashgabat',
-              ),
-              'Baghdad' => 
-              array (
-                'exemplarCity' => 'Baghdad',
-              ),
-              'Bahrain' => 
-              array (
-                'exemplarCity' => 'Bahrain',
-              ),
-              'Baku' => 
-              array (
-                'exemplarCity' => 'Baku',
-              ),
-              'Bangkok' => 
-              array (
-                'exemplarCity' => 'Bangkok',
-              ),
-              'Beirut' => 
-              array (
-                'exemplarCity' => 'Beirut',
-              ),
-              'Bishkek' => 
-              array (
-                'exemplarCity' => 'Bishkek',
-              ),
-              'Brunei' => 
-              array (
-                'exemplarCity' => 'Brunei',
-              ),
-              'Calcutta' => 
-              array (
-                'exemplarCity' => 'Kolkata',
-              ),
-              'Chita' => 
-              array (
-                'exemplarCity' => 'Chita',
-              ),
-              'Choibalsan' => 
-              array (
-                'exemplarCity' => 'Choibalsan',
-              ),
-              'Chongqing' => 
-              array (
-                'exemplarCity' => 'Chongqing',
-              ),
-              'Colombo' => 
-              array (
-                'exemplarCity' => 'Colombo',
-              ),
-              'Damascus' => 
-              array (
-                'exemplarCity' => 'Damascus',
-              ),
-              'Dhaka' => 
-              array (
-                'exemplarCity' => 'Dhaka',
-              ),
-              'Dili' => 
-              array (
-                'exemplarCity' => 'Dili',
-              ),
-              'Dubai' => 
-              array (
-                'exemplarCity' => 'Dubai',
-              ),
-              'Dushanbe' => 
-              array (
-                'exemplarCity' => 'Dushanbe',
-              ),
-              'Gaza' => 
-              array (
-                'exemplarCity' => 'Gaza',
-              ),
-              'Harbin' => 
-              array (
-                'exemplarCity' => 'Harbin',
-              ),
-              'Hebron' => 
-              array (
-                'exemplarCity' => 'Hebron',
-              ),
-              'Hong_Kong' => 
-              array (
-                'exemplarCity' => 'Hong Kong',
-              ),
-              'Hovd' => 
-              array (
-                'exemplarCity' => 'Hovd',
-              ),
-              'Irkutsk' => 
-              array (
-                'exemplarCity' => 'Irkutsk',
-              ),
-              'Jakarta' => 
-              array (
-                'exemplarCity' => 'Jakarta',
-              ),
-              'Jayapura' => 
-              array (
-                'exemplarCity' => 'Jayapura',
-              ),
-              'Jerusalem' => 
-              array (
-                'exemplarCity' => 'Jerusalem',
-              ),
-              'Kabul' => 
-              array (
-                'exemplarCity' => 'Kabul',
-              ),
-              'Kamchatka' => 
-              array (
-                'exemplarCity' => 'Kamchatka',
-              ),
-              'Karachi' => 
-              array (
-                'exemplarCity' => 'Karachi',
-              ),
-              'Kashgar' => 
-              array (
-                'exemplarCity' => 'Kashgar',
-              ),
-              'Katmandu' => 
-              array (
-                'exemplarCity' => 'Kathmandu',
-              ),
-              'Khandyga' => 
-              array (
-                'exemplarCity' => 'Khandyga',
-              ),
-              'Krasnoyarsk' => 
-              array (
-                'exemplarCity' => 'Krasnoyarsk',
-              ),
-              'Kuala_Lumpur' => 
-              array (
-                'exemplarCity' => 'Kuala Lumpur',
-              ),
-              'Kuching' => 
-              array (
-                'exemplarCity' => 'Kuching',
-              ),
-              'Kuwait' => 
-              array (
-                'exemplarCity' => 'Kuwait',
-              ),
-              'Macau' => 
-              array (
-                'exemplarCity' => 'Macau',
-              ),
-              'Magadan' => 
-              array (
-                'exemplarCity' => 'Magadan',
-              ),
-              'Makassar' => 
-              array (
-                'exemplarCity' => 'Makassar',
-              ),
-              'Manila' => 
-              array (
-                'exemplarCity' => 'Manila',
-              ),
-              'Muscat' => 
-              array (
-                'exemplarCity' => 'Muscat',
-              ),
-              'Nicosia' => 
-              array (
-                'exemplarCity' => 'Nicosia',
-              ),
-              'Novokuznetsk' => 
-              array (
-                'exemplarCity' => 'Novokuznetsk',
-              ),
-              'Novosibirsk' => 
-              array (
-                'exemplarCity' => 'Novosibirsk',
-              ),
-              'Omsk' => 
-              array (
-                'exemplarCity' => 'Omsk',
-              ),
-              'Oral' => 
-              array (
-                'exemplarCity' => 'Oral',
-              ),
-              'Phnom_Penh' => 
-              array (
-                'exemplarCity' => 'Phnom Penh',
-              ),
-              'Pontianak' => 
-              array (
-                'exemplarCity' => 'Pontianak',
-              ),
-              'Pyongyang' => 
-              array (
-                'exemplarCity' => 'Pyongyang',
-              ),
-              'Qatar' => 
-              array (
-                'exemplarCity' => 'Qatar',
-              ),
-              'Qyzylorda' => 
-              array (
-                'exemplarCity' => 'Qyzylorda',
-              ),
-              'Rangoon' => 
-              array (
-                'exemplarCity' => 'Rangoon',
-              ),
-              'Riyadh' => 
-              array (
-                'exemplarCity' => 'Riyadh',
-              ),
-              'Saigon' => 
-              array (
-                'exemplarCity' => 'Ho Chi Minh City',
-              ),
-              'Sakhalin' => 
-              array (
-                'exemplarCity' => 'Sakhalin',
-              ),
-              'Samarkand' => 
-              array (
-                'exemplarCity' => 'Samarkand',
-              ),
-              'Seoul' => 
-              array (
-                'exemplarCity' => 'Seoul',
-              ),
-              'Shanghai' => 
-              array (
-                'exemplarCity' => 'Shanghai',
-              ),
-              'Singapore' => 
-              array (
-                'exemplarCity' => 'Singapore',
-              ),
-              'Srednekolymsk' => 
-              array (
-                'exemplarCity' => 'Srednekolymsk',
-              ),
-              'Taipei' => 
-              array (
-                'exemplarCity' => 'Taipei',
-              ),
-              'Tashkent' => 
-              array (
-                'exemplarCity' => 'Tashkent',
-              ),
-              'Tbilisi' => 
-              array (
-                'exemplarCity' => 'Tbilisi',
-              ),
-              'Tehran' => 
-              array (
-                'exemplarCity' => 'Tehran',
-              ),
-              'Thimphu' => 
-              array (
-                'exemplarCity' => 'Thimphu',
-              ),
-              'Tokyo' => 
-              array (
-                'exemplarCity' => 'Tokyo',
-              ),
-              'Ulaanbaatar' => 
-              array (
-                'exemplarCity' => 'Ulaanbaatar',
-              ),
-              'Urumqi' => 
-              array (
-                'exemplarCity' => 'Urumqi',
-              ),
-              'Ust-Nera' => 
-              array (
-                'exemplarCity' => 'Ust-Nera',
-              ),
-              'Vientiane' => 
-              array (
-                'exemplarCity' => 'Vientiane',
-              ),
-              'Vladivostok' => 
-              array (
-                'exemplarCity' => 'Vladivostok',
-              ),
-              'Yakutsk' => 
-              array (
-                'exemplarCity' => 'Yakutsk',
-              ),
-              'Yekaterinburg' => 
-              array (
-                'exemplarCity' => 'Yekaterinburg',
-              ),
-              'Yerevan' => 
-              array (
-                'exemplarCity' => 'Yerevan',
-              ),
-            ),
-            'Indian' => 
-            array (
-              'Antananarivo' => 
-              array (
-                'exemplarCity' => 'Antananarivo',
-              ),
-              'Chagos' => 
-              array (
-                'exemplarCity' => 'Chagos',
-              ),
-              'Christmas' => 
-              array (
-                'exemplarCity' => 'Christmas',
-              ),
-              'Cocos' => 
-              array (
-                'exemplarCity' => 'Cocos',
-              ),
-              'Comoro' => 
-              array (
-                'exemplarCity' => 'Comoro',
-              ),
-              'Kerguelen' => 
-              array (
-                'exemplarCity' => 'Kerguelen',
-              ),
-              'Mahe' => 
-              array (
-                'exemplarCity' => 'Mahe',
-              ),
-              'Maldives' => 
-              array (
-                'exemplarCity' => 'Maldives',
-              ),
-              'Mauritius' => 
-              array (
-                'exemplarCity' => 'Mauritius',
-              ),
-              'Mayotte' => 
-              array (
-                'exemplarCity' => 'Mayotte',
-              ),
-              'Reunion' => 
-              array (
-                'exemplarCity' => 'Réunion',
-              ),
-            ),
-            'Australia' => 
-            array (
-              'Adelaide' => 
-              array (
-                'exemplarCity' => 'Adelaide',
-              ),
-              'Brisbane' => 
-              array (
-                'exemplarCity' => 'Brisbane',
-              ),
-              'Broken_Hill' => 
-              array (
-                'exemplarCity' => 'Broken Hill',
-              ),
-              'Currie' => 
-              array (
-                'exemplarCity' => 'Currie',
-              ),
-              'Darwin' => 
-              array (
-                'exemplarCity' => 'Darwin',
-              ),
-              'Eucla' => 
-              array (
-                'exemplarCity' => 'Eucla',
-              ),
-              'Hobart' => 
-              array (
-                'exemplarCity' => 'Hobart',
-              ),
-              'Lindeman' => 
-              array (
-                'exemplarCity' => 'Lindeman',
-              ),
-              'Lord_Howe' => 
-              array (
-                'exemplarCity' => 'Lord Howe',
-              ),
-              'Melbourne' => 
-              array (
-                'exemplarCity' => 'Melbourne',
-              ),
-              'Perth' => 
-              array (
-                'exemplarCity' => 'Perth',
-              ),
-              'Sydney' => 
-              array (
-                'exemplarCity' => 'Sydney',
-              ),
-            ),
-            'Pacific' => 
-            array (
-              'Apia' => 
-              array (
-                'exemplarCity' => 'Apia',
-              ),
-              'Auckland' => 
-              array (
-                'exemplarCity' => 'Auckland',
-              ),
-              'Chatham' => 
-              array (
-                'exemplarCity' => 'Chatham',
-              ),
-              'Easter' => 
-              array (
-                'exemplarCity' => 'Easter',
-              ),
-              'Efate' => 
-              array (
-                'exemplarCity' => 'Efate',
-              ),
-              'Enderbury' => 
-              array (
-                'exemplarCity' => 'Enderbury',
-              ),
-              'Fakaofo' => 
-              array (
-                'exemplarCity' => 'Fakaofo',
-              ),
-              'Fiji' => 
-              array (
-                'exemplarCity' => 'Fiji',
-              ),
-              'Funafuti' => 
-              array (
-                'exemplarCity' => 'Funafuti',
-              ),
-              'Galapagos' => 
-              array (
-                'exemplarCity' => 'Galapagos',
-              ),
-              'Gambier' => 
-              array (
-                'exemplarCity' => 'Gambier',
-              ),
-              'Guadalcanal' => 
-              array (
-                'exemplarCity' => 'Guadalcanal',
-              ),
-              'Guam' => 
-              array (
-                'exemplarCity' => 'Guam',
-              ),
-              'Honolulu' => 
-              array (
-                'exemplarCity' => 'Honolulu',
-              ),
-              'Johnston' => 
-              array (
-                'exemplarCity' => 'Johnston',
-              ),
-              'Kiritimati' => 
-              array (
-                'exemplarCity' => 'Kiritimati',
-              ),
-              'Kosrae' => 
-              array (
-                'exemplarCity' => 'Kosrae',
-              ),
-              'Kwajalein' => 
-              array (
-                'exemplarCity' => 'Kwajalein',
-              ),
-              'Majuro' => 
-              array (
-                'exemplarCity' => 'Majuro',
-              ),
-              'Marquesas' => 
-              array (
-                'exemplarCity' => 'Marquesas',
-              ),
-              'Midway' => 
-              array (
-                'exemplarCity' => 'Midway',
-              ),
-              'Nauru' => 
-              array (
-                'exemplarCity' => 'Nauru',
-              ),
-              'Niue' => 
-              array (
-                'exemplarCity' => 'Niue',
-              ),
-              'Norfolk' => 
-              array (
-                'exemplarCity' => 'Norfolk',
-              ),
-              'Noumea' => 
-              array (
-                'exemplarCity' => 'Noumea',
-              ),
-              'Pago_Pago' => 
-              array (
-                'exemplarCity' => 'Pago Pago',
-              ),
-              'Palau' => 
-              array (
-                'exemplarCity' => 'Palau',
-              ),
-              'Pitcairn' => 
-              array (
-                'exemplarCity' => 'Pitcairn',
-              ),
-              'Ponape' => 
-              array (
-                'exemplarCity' => 'Pohnpei',
-              ),
-              'Port_Moresby' => 
-              array (
-                'exemplarCity' => 'Port Moresby',
-              ),
-              'Rarotonga' => 
-              array (
-                'exemplarCity' => 'Rarotonga',
-              ),
-              'Saipan' => 
-              array (
-                'exemplarCity' => 'Saipan',
-              ),
-              'Tahiti' => 
-              array (
-                'exemplarCity' => 'Tahiti',
-              ),
-              'Tarawa' => 
-              array (
-                'exemplarCity' => 'Tarawa',
-              ),
-              'Tongatapu' => 
-              array (
-                'exemplarCity' => 'Tongatapu',
-              ),
-              'Truk' => 
-              array (
-                'exemplarCity' => 'Chuuk',
-              ),
-              'Wake' => 
-              array (
-                'exemplarCity' => 'Wake',
-              ),
-              'Wallis' => 
-              array (
-                'exemplarCity' => 'Wallis',
-              ),
-            ),
-            'Arctic' => 
-            array (
-              'Longyearbyen' => 
-              array (
-                'exemplarCity' => 'Longyearbyen',
-              ),
-            ),
-            'Antarctica' => 
-            array (
-              'Casey' => 
-              array (
-                'exemplarCity' => 'Casey',
-              ),
-              'Davis' => 
-              array (
-                'exemplarCity' => 'Davis',
-              ),
-              'DumontDUrville' => 
-              array (
-                'exemplarCity' => 'Dumont d’Urville',
-              ),
-              'Macquarie' => 
-              array (
-                'exemplarCity' => 'Macquarie',
-              ),
-              'Mawson' => 
-              array (
-                'exemplarCity' => 'Mawson',
-              ),
-              'McMurdo' => 
-              array (
-                'exemplarCity' => 'McMurdo',
-              ),
-              'Palmer' => 
-              array (
-                'exemplarCity' => 'Palmer',
-              ),
-              'Rothera' => 
-              array (
-                'exemplarCity' => 'Rothera',
-              ),
-              'Syowa' => 
-              array (
-                'exemplarCity' => 'Syowa',
-              ),
-              'Troll' => 
-              array (
-                'exemplarCity' => 'Troll',
-              ),
-              'Vostok' => 
-              array (
-                'exemplarCity' => 'Vostok',
-              ),
-            ),
-            'Etc' => 
-            array (
-              'GMT' => 
-              array (
-                'exemplarCity' => 'GMT',
-              ),
-              'GMT1' => 
-              array (
-                'exemplarCity' => 'GMT+1',
-              ),
-              'GMT10' => 
-              array (
-                'exemplarCity' => 'GMT+10',
-              ),
-              'GMT11' => 
-              array (
-                'exemplarCity' => 'GMT+11',
-              ),
-              'GMT12' => 
-              array (
-                'exemplarCity' => 'GMT+12',
-              ),
-              'GMT2' => 
-              array (
-                'exemplarCity' => 'GMT+2',
-              ),
-              'GMT3' => 
-              array (
-                'exemplarCity' => 'GMT+3',
-              ),
-              'GMT4' => 
-              array (
-                'exemplarCity' => 'GMT+4',
-              ),
-              'GMT5' => 
-              array (
-                'exemplarCity' => 'GMT+5',
-              ),
-              'GMT6' => 
-              array (
-                'exemplarCity' => 'GMT+6',
-              ),
-              'GMT7' => 
-              array (
-                'exemplarCity' => 'GMT+7',
-              ),
-              'GMT8' => 
-              array (
-                'exemplarCity' => 'GMT+8',
-              ),
-              'GMT9' => 
-              array (
-                'exemplarCity' => 'GMT+9',
-              ),
-              'GMT-1' => 
-              array (
-                'exemplarCity' => 'GMT-1',
-              ),
-              'GMT-10' => 
-              array (
-                'exemplarCity' => 'GMT-10',
-              ),
-              'GMT-11' => 
-              array (
-                'exemplarCity' => 'GMT-11',
-              ),
-              'GMT-12' => 
-              array (
-                'exemplarCity' => 'GMT-12',
-              ),
-              'GMT-13' => 
-              array (
-                'exemplarCity' => 'GMT-13',
-              ),
-              'GMT-14' => 
-              array (
-                'exemplarCity' => 'GMT-14',
-              ),
-              'GMT-2' => 
-              array (
-                'exemplarCity' => 'GMT-2',
-              ),
-              'GMT-3' => 
-              array (
-                'exemplarCity' => 'GMT-3',
-              ),
-              'GMT-4' => 
-              array (
-                'exemplarCity' => 'GMT-4',
-              ),
-              'GMT-5' => 
-              array (
-                'exemplarCity' => 'GMT-5',
-              ),
-              'GMT-6' => 
-              array (
-                'exemplarCity' => 'GMT-6',
-              ),
-              'GMT-7' => 
-              array (
-                'exemplarCity' => 'GMT-7',
-              ),
-              'GMT-8' => 
-              array (
-                'exemplarCity' => 'GMT-8',
-              ),
-              'GMT-9' => 
-              array (
-                'exemplarCity' => 'GMT-9',
-              ),
-              'Unknown' => 
-              array (
-                'exemplarCity' => 'Unknown City',
-              ),
-            ),
-          ),
-          'metazone' => 
-          array (
-            'Acre' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Acre Time',
-                'standard' => 'Acre Standard Time',
-                'daylight' => 'Acre Summer Time',
-              ),
-            ),
-            'Afghanistan' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Afghanistan Time',
-              ),
-            ),
-            'Africa_Central' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Central Africa Time',
-              ),
-            ),
-            'Africa_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'East Africa Time',
-              ),
-            ),
-            'Africa_Southern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'South Africa Standard Time',
-              ),
-            ),
-            'Africa_Western' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'West Africa Time',
-                'standard' => 'West Africa Standard Time',
-                'daylight' => 'West Africa Summer Time',
-              ),
-            ),
-            'Alaska' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Alaska Time',
-                'standard' => 'Alaska Standard Time',
-                'daylight' => 'Alaska Daylight Time',
-              ),
-            ),
-            'Almaty' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Almaty Time',
-                'standard' => 'Almaty Standard Time',
-                'daylight' => 'Almaty Summer Time',
-              ),
-            ),
-            'Amazon' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Amazon Time',
-                'standard' => 'Amazon Standard Time',
-                'daylight' => 'Amazon Summer Time',
-              ),
-            ),
-            'America_Central' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Central Time',
-                'standard' => 'Central Standard Time',
-                'daylight' => 'Central Daylight Time',
-              ),
-            ),
-            'America_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Eastern Time',
-                'standard' => 'Eastern Standard Time',
-                'daylight' => 'Eastern Daylight Time',
-              ),
-            ),
-            'America_Mountain' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Mountain Time',
-                'standard' => 'Mountain Standard Time',
-                'daylight' => 'Mountain Daylight Time',
-              ),
-            ),
-            'America_Pacific' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Pacific Time',
-                'standard' => 'Pacific Standard Time',
-                'daylight' => 'Pacific Daylight Time',
-              ),
-            ),
-            'Anadyr' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Anadyr Time',
-                'standard' => 'Anadyr Standard Time',
-                'daylight' => 'Anadyr Summer Time',
-              ),
-            ),
-            'Apia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Apia Time',
-                'standard' => 'Apia Standard Time',
-                'daylight' => 'Apia Daylight Time',
-              ),
-            ),
-            'Aqtau' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Aqtau Time',
-                'standard' => 'Aqtau Standard Time',
-                'daylight' => 'Aqtau Summer Time',
-              ),
-            ),
-            'Aqtobe' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Aqtobe Time',
-                'standard' => 'Aqtobe Standard Time',
-                'daylight' => 'Aqtobe Summer Time',
-              ),
-            ),
-            'Arabian' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Arabian Time',
-                'standard' => 'Arabian Standard Time',
-                'daylight' => 'Arabian Summer Time',
-              ),
-            ),
-            'Argentina' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Argentina Time',
-                'standard' => 'Argentina Standard Time',
-                'daylight' => 'Argentina Summer Time',
-              ),
-            ),
-            'Argentina_Western' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Western Argentina Time',
-                'standard' => 'Western Argentina Standard Time',
-                'daylight' => 'Western Argentina Summer Time',
-              ),
-            ),
-            'Armenia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Armenia Time',
-                'standard' => 'Armenia Standard Time',
-                'daylight' => 'Armenia Summer Time',
-              ),
-            ),
-            'Atlantic' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Atlantic Time',
-                'standard' => 'Atlantic Standard Time',
-                'daylight' => 'Atlantic Daylight Time',
-              ),
-            ),
-            'Australia_Central' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Central Australia Time',
-                'standard' => 'Australian Central Standard Time',
-                'daylight' => 'Australian Central Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'ACT',
-                'standard' => 'ACST',
-                'daylight' => 'ACDT',
-              ),
-            ),
-            'Australia_CentralWestern' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Australian Central Western Time',
-                'standard' => 'Australian Central Western Standard Time',
-                'daylight' => 'Australian Central Western Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'ACWT',
-                'standard' => 'ACWST',
-                'daylight' => 'ACWDT',
-              ),
-            ),
-            'Australia_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Eastern Australia Time',
-                'standard' => 'Australian Eastern Standard Time',
-                'daylight' => 'Australian Eastern Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'AET',
-                'standard' => 'AEST',
-                'daylight' => 'AEDT',
-              ),
-            ),
-            'Australia_Western' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Western Australia Time',
-                'standard' => 'Australian Western Standard Time',
-                'daylight' => 'Australian Western Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'AWT',
-                'standard' => 'AWST',
-                'daylight' => 'AWDT',
-              ),
-            ),
-            'Azerbaijan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Azerbaijan Time',
-                'standard' => 'Azerbaijan Standard Time',
-                'daylight' => 'Azerbaijan Summer Time',
-              ),
-            ),
-            'Azores' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Azores Time',
-                'standard' => 'Azores Standard Time',
-                'daylight' => 'Azores Summer Time',
-              ),
-            ),
-            'Bangladesh' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Bangladesh Time',
-                'standard' => 'Bangladesh Standard Time',
-                'daylight' => 'Bangladesh Summer Time',
-              ),
-            ),
-            'Bhutan' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Bhutan Time',
-              ),
-            ),
-            'Bolivia' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Bolivia Time',
-              ),
-            ),
-            'Brasilia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Brasilia Time',
-                'standard' => 'Brasilia Standard Time',
-                'daylight' => 'Brasilia Summer Time',
-              ),
-            ),
-            'Brunei' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Brunei Darussalam Time',
-              ),
-            ),
-            'Cape_Verde' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Cape Verde Time',
-                'standard' => 'Cape Verde Standard Time',
-                'daylight' => 'Cape Verde Summer Time',
-              ),
-            ),
-            'Casey' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Casey Time',
-              ),
-            ),
-            'Chamorro' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Chamorro Standard Time',
-              ),
-            ),
-            'Chatham' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Chatham Time',
-                'standard' => 'Chatham Standard Time',
-                'daylight' => 'Chatham Daylight Time',
-              ),
-            ),
-            'Chile' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Chile Time',
-                'standard' => 'Chile Standard Time',
-                'daylight' => 'Chile Summer Time',
-              ),
-            ),
-            'China' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'China Time',
-                'standard' => 'China Standard Time',
-                'daylight' => 'China Summer Time',
-              ),
-            ),
-            'Choibalsan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Choibalsan Time',
-                'standard' => 'Choibalsan Standard Time',
-                'daylight' => 'Choibalsan Summer Time',
-              ),
-            ),
-            'Christmas' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Christmas Island Time',
-              ),
-            ),
-            'Cocos' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Cocos Islands Time',
-              ),
-            ),
-            'Colombia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Colombia Time',
-                'standard' => 'Colombia Standard Time',
-                'daylight' => 'Colombia Summer Time',
-              ),
-            ),
-            'Cook' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Cook Islands Time',
-                'standard' => 'Cook Islands Standard Time',
-                'daylight' => 'Cook Islands Half Summer Time',
-              ),
-            ),
-            'Cuba' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Cuba Time',
-                'standard' => 'Cuba Standard Time',
-                'daylight' => 'Cuba Daylight Time',
-              ),
-            ),
-            'Davis' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Davis Time',
-              ),
-            ),
-            'DumontDUrville' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Dumont-d’Urville Time',
-              ),
-            ),
-            'East_Timor' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'East Timor Time',
-              ),
-            ),
-            'Easter' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Easter Island Time',
-                'standard' => 'Easter Island Standard Time',
-                'daylight' => 'Easter Island Summer Time',
-              ),
-            ),
-            'Ecuador' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Ecuador Time',
-              ),
-            ),
-            'Europe_Central' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Central European Time',
-                'standard' => 'Central European Standard Time',
-                'daylight' => 'Central European Summer Time',
-              ),
-            ),
-            'Europe_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Eastern European Time',
-                'standard' => 'Eastern European Standard Time',
-                'daylight' => 'Eastern European Summer Time',
-              ),
-            ),
-            'Europe_Further_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Further-eastern European Time',
-              ),
-            ),
-            'Europe_Western' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Western European Time',
-                'standard' => 'Western European Standard Time',
-                'daylight' => 'Western European Summer Time',
-              ),
-            ),
-            'Falkland' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Falkland Islands Time',
-                'standard' => 'Falkland Islands Standard Time',
-                'daylight' => 'Falkland Islands Summer Time',
-              ),
-            ),
-            'Fiji' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Fiji Time',
-                'standard' => 'Fiji Standard Time',
-                'daylight' => 'Fiji Summer Time',
-              ),
-            ),
-            'French_Guiana' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'French Guiana Time',
-              ),
-            ),
-            'French_Southern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'French Southern and Antarctic Time',
-              ),
-            ),
-            'GMT' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Greenwich Mean Time',
-              ),
-              'short' => 
-              array (
-                'standard' => 'GMT',
-              ),
-            ),
-            'Galapagos' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Galapagos Time',
-              ),
-            ),
-            'Gambier' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Gambier Time',
-              ),
-            ),
-            'Georgia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Georgia Time',
-                'standard' => 'Georgia Standard Time',
-                'daylight' => 'Georgia Summer Time',
-              ),
-            ),
-            'Gilbert_Islands' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Gilbert Islands Time',
-              ),
-            ),
-            'Greenland_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'East Greenland Time',
-                'standard' => 'East Greenland Standard Time',
-                'daylight' => 'East Greenland Summer Time',
-              ),
-            ),
-            'Greenland_Western' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'West Greenland Time',
-                'standard' => 'West Greenland Standard Time',
-                'daylight' => 'West Greenland Summer Time',
-              ),
-            ),
-            'Guam' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Guam Standard Time',
-              ),
-            ),
-            'Gulf' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Gulf Standard Time',
-              ),
-            ),
-            'Guyana' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Guyana Time',
-              ),
-            ),
-            'Hawaii_Aleutian' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Hawaii-Aleutian Time',
-                'standard' => 'Hawaii-Aleutian Standard Time',
-                'daylight' => 'Hawaii-Aleutian Daylight Time',
-              ),
-            ),
-            'Hong_Kong' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Hong Kong Time',
-                'standard' => 'Hong Kong Standard Time',
-                'daylight' => 'Hong Kong Summer Time',
-              ),
-            ),
-            'Hovd' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Hovd Time',
-                'standard' => 'Hovd Standard Time',
-                'daylight' => 'Hovd Summer Time',
-              ),
-            ),
-            'India' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'India Standard Time',
-              ),
-            ),
-            'Indian_Ocean' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Indian Ocean Time',
-              ),
-            ),
-            'Indochina' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Indochina Time',
-              ),
-            ),
-            'Indonesia_Central' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Central Indonesia Time',
-              ),
-            ),
-            'Indonesia_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Eastern Indonesia Time',
-              ),
-            ),
-            'Indonesia_Western' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Western Indonesia Time',
-              ),
-            ),
-            'Iran' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Iran Time',
-                'standard' => 'Iran Standard Time',
-                'daylight' => 'Iran Summer Time',
-              ),
-            ),
-            'Irkutsk' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Irkutsk Time',
-                'standard' => 'Irkutsk Standard Time',
-                'daylight' => 'Irkutsk Summer Time',
-              ),
-            ),
-            'Israel' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Israel Time',
-                'standard' => 'Israel Standard Time',
-                'daylight' => 'Israel Summer Time',
-              ),
-            ),
-            'Japan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Japan Time',
-                'standard' => 'Japan Standard Time',
-                'daylight' => 'Japan Summer Time',
-              ),
-            ),
-            'Kamchatka' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Petropavlovsk-Kamchatski Time',
-                'standard' => 'Petropavlovsk-Kamchatski Standard Time',
-                'daylight' => 'Petropavlovsk-Kamchatski Summer Time',
-              ),
-            ),
-            'Kazakhstan_Eastern' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'East Kazakhstan Time',
-              ),
-            ),
-            'Kazakhstan_Western' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'West Kazakhstan Time',
-              ),
-            ),
-            'Korea' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Korean Time',
-                'standard' => 'Korean Standard Time',
-                'daylight' => 'Korean Summer Time',
-              ),
-            ),
-            'Kosrae' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Kosrae Time',
-              ),
-            ),
-            'Krasnoyarsk' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Krasnoyarsk Time',
-                'standard' => 'Krasnoyarsk Standard Time',
-                'daylight' => 'Krasnoyarsk Summer Time',
-              ),
-            ),
-            'Kyrgystan' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Kyrgystan Time',
-              ),
-            ),
-            'Lanka' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Lanka Time',
-              ),
-            ),
-            'Line_Islands' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Line Islands Time',
-              ),
-            ),
-            'Lord_Howe' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Lord Howe Time',
-                'standard' => 'Lord Howe Standard Time',
-                'daylight' => 'Lord Howe Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'LHT',
-                'standard' => 'LHST',
-                'daylight' => 'LHDT',
-              ),
-            ),
-            'Macau' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Macau Time',
-                'standard' => 'Macau Standard Time',
-                'daylight' => 'Macau Summer Time',
-              ),
-            ),
-            'Macquarie' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Macquarie Island Time',
-              ),
-            ),
-            'Magadan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Magadan Time',
-                'standard' => 'Magadan Standard Time',
-                'daylight' => 'Magadan Summer Time',
-              ),
-            ),
-            'Malaysia' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Malaysia Time',
-              ),
-            ),
-            'Maldives' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Maldives Time',
-              ),
-            ),
-            'Marquesas' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Marquesas Time',
-              ),
-            ),
-            'Marshall_Islands' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Marshall Islands Time',
-              ),
-            ),
-            'Mauritius' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Mauritius Time',
-                'standard' => 'Mauritius Standard Time',
-                'daylight' => 'Mauritius Summer Time',
-              ),
-            ),
-            'Mawson' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Mawson Time',
-              ),
-            ),
-            'Mexico_Northwest' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Northwest Mexico Time',
-                'standard' => 'Northwest Mexico Standard Time',
-                'daylight' => 'Northwest Mexico Daylight Time',
-              ),
-            ),
-            'Mexico_Pacific' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Mexican Pacific Time',
-                'standard' => 'Mexican Pacific Standard Time',
-                'daylight' => 'Mexican Pacific Daylight Time',
-              ),
-            ),
-            'Mongolia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Ulan Bator Time',
-                'standard' => 'Ulan Bator Standard Time',
-                'daylight' => 'Ulan Bator Summer Time',
-              ),
-            ),
-            'Moscow' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Moscow Time',
-                'standard' => 'Moscow Standard Time',
-                'daylight' => 'Moscow Summer Time',
-              ),
-            ),
-            'Myanmar' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Myanmar Time',
-              ),
-            ),
-            'Nauru' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Nauru Time',
-              ),
-            ),
-            'Nepal' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Nepal Time',
-              ),
-            ),
-            'New_Caledonia' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'New Caledonia Time',
-                'standard' => 'New Caledonia Standard Time',
-                'daylight' => 'New Caledonia Summer Time',
-              ),
-            ),
-            'New_Zealand' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'New Zealand Time',
-                'standard' => 'New Zealand Standard Time',
-                'daylight' => 'New Zealand Daylight Time',
-              ),
-              'short' => 
-              array (
-                'generic' => 'NZT',
-                'standard' => 'NZST',
-                'daylight' => 'NZDT',
-              ),
-            ),
-            'Newfoundland' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Newfoundland Time',
-                'standard' => 'Newfoundland Standard Time',
-                'daylight' => 'Newfoundland Daylight Time',
-              ),
-            ),
-            'Niue' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Niue Time',
-              ),
-            ),
-            'Norfolk' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Norfolk Island Time',
-              ),
-            ),
-            'Noronha' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Fernando de Noronha Time',
-                'standard' => 'Fernando de Noronha Standard Time',
-                'daylight' => 'Fernando de Noronha Summer Time',
-              ),
-            ),
-            'North_Mariana' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'North Mariana Islands Time',
-              ),
-            ),
-            'Novosibirsk' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Novosibirsk Time',
-                'standard' => 'Novosibirsk Standard Time',
-                'daylight' => 'Novosibirsk Summer Time',
-              ),
-            ),
-            'Omsk' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Omsk Time',
-                'standard' => 'Omsk Standard Time',
-                'daylight' => 'Omsk Summer Time',
-              ),
-            ),
-            'Pakistan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Pakistan Time',
-                'standard' => 'Pakistan Standard Time',
-                'daylight' => 'Pakistan Summer Time',
-              ),
-            ),
-            'Palau' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Palau Time',
-              ),
-            ),
-            'Papua_New_Guinea' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Papua New Guinea Time',
-              ),
-            ),
-            'Paraguay' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Paraguay Time',
-                'standard' => 'Paraguay Standard Time',
-                'daylight' => 'Paraguay Summer Time',
-              ),
-            ),
-            'Peru' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Peru Time',
-                'standard' => 'Peru Standard Time',
-                'daylight' => 'Peru Summer Time',
-              ),
-            ),
-            'Philippines' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Philippine Time',
-                'standard' => 'Philippine Standard Time',
-                'daylight' => 'Philippine Summer Time',
-              ),
-            ),
-            'Phoenix_Islands' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Phoenix Islands Time',
-              ),
-            ),
-            'Pierre_Miquelon' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Saint Pierre and Miquelon Time',
-                'standard' => 'Saint Pierre and Miquelon Standard Time',
-                'daylight' => 'Saint Pierre and Miquelon Daylight Time',
-              ),
-            ),
-            'Pitcairn' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Pitcairn Time',
-              ),
-            ),
-            'Ponape' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Ponape Time',
-              ),
-            ),
-            'Qyzylorda' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Qyzylorda Time',
-                'standard' => 'Qyzylorda Standard Time',
-                'daylight' => 'Qyzylorda Summer Time',
-              ),
-            ),
-            'Reunion' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Reunion Time',
-              ),
-            ),
-            'Rothera' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Rothera Time',
-              ),
-            ),
-            'Sakhalin' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Sakhalin Time',
-                'standard' => 'Sakhalin Standard Time',
-                'daylight' => 'Sakhalin Summer Time',
-              ),
-            ),
-            'Samara' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Samara Time',
-                'standard' => 'Samara Standard Time',
-                'daylight' => 'Samara Summer Time',
-              ),
-            ),
-            'Samoa' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Samoa Time',
-                'standard' => 'Samoa Standard Time',
-                'daylight' => 'Samoa Daylight Time',
-              ),
-            ),
-            'Seychelles' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Seychelles Time',
-              ),
-            ),
-            'Singapore' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Singapore Standard Time',
-              ),
-            ),
-            'Solomon' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Solomon Islands Time',
-              ),
-            ),
-            'South_Georgia' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'South Georgia Time',
-              ),
-            ),
-            'Suriname' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Suriname Time',
-              ),
-            ),
-            'Syowa' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Syowa Time',
-              ),
-            ),
-            'Tahiti' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Tahiti Time',
-              ),
-            ),
-            'Taipei' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Taipei Time',
-                'standard' => 'Taipei Standard Time',
-                'daylight' => 'Taipei Summer Time',
-              ),
-            ),
-            'Tajikistan' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Tajikistan Time',
-              ),
-            ),
-            'Tokelau' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Tokelau Time',
-              ),
-            ),
-            'Tonga' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Tonga Time',
-                'standard' => 'Tonga Standard Time',
-                'daylight' => 'Tonga Summer Time',
-              ),
-            ),
-            'Truk' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Chuuk Time',
-              ),
-            ),
-            'Turkmenistan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Turkmenistan Time',
-                'standard' => 'Turkmenistan Standard Time',
-                'daylight' => 'Turkmenistan Summer Time',
-              ),
-            ),
-            'Tuvalu' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Tuvalu Time',
-              ),
-            ),
-            'Uruguay' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Uruguay Time',
-                'standard' => 'Uruguay Standard Time',
-                'daylight' => 'Uruguay Summer Time',
-              ),
-            ),
-            'Uzbekistan' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Uzbekistan Time',
-                'standard' => 'Uzbekistan Standard Time',
-                'daylight' => 'Uzbekistan Summer Time',
-              ),
-            ),
-            'Vanuatu' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Vanuatu Time',
-                'standard' => 'Vanuatu Standard Time',
-                'daylight' => 'Vanuatu Summer Time',
-              ),
-            ),
-            'Venezuela' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Venezuela Time',
-              ),
-            ),
-            'Vladivostok' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Vladivostok Time',
-                'standard' => 'Vladivostok Standard Time',
-                'daylight' => 'Vladivostok Summer Time',
-              ),
-            ),
-            'Volgograd' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Volgograd Time',
-                'standard' => 'Volgograd Standard Time',
-                'daylight' => 'Volgograd Summer Time',
-              ),
-            ),
-            'Vostok' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Vostok Time',
-              ),
-            ),
-            'Wake' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Wake Island Time',
-              ),
-            ),
-            'Wallis' => 
-            array (
-              'long' => 
-              array (
-                'standard' => 'Wallis and Futuna Time',
-              ),
-            ),
-            'Yakutsk' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Yakutsk Time',
-                'standard' => 'Yakutsk Standard Time',
-                'daylight' => 'Yakutsk Summer Time',
-              ),
-            ),
-            'Yekaterinburg' => 
-            array (
-              'long' => 
-              array (
-                'generic' => 'Yekaterinburg Time',
-                'standard' => 'Yekaterinburg Standard Time',
-                'daylight' => 'Yekaterinburg Summer Time',
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  ),
-);
-
-return $data;
+return [
+  'dates' => [
+    'timeZoneNames' => [
+      'hourFormat' => '+HH:mm;-HH:mm',
+      'gmtFormat' => 'GMT{0}',
+      'gmtZeroFormat' => 'GMT',
+      'regionFormat' => '{0} Time',
+      'regionFormat-type-standard' => '{0} Standard Time',
+      'regionFormat-type-daylight' => '{0} Daylight Time',
+      'fallbackFormat' => '{1} ({0}]',
+      'zone' => [
+        'America' => [
+          'Adak' => [
+            'exemplarCity' => 'Adak',
+          ],
+          'Anchorage' => [
+            'exemplarCity' => 'Anchorage',
+          ],
+          'Anguilla' => [
+            'exemplarCity' => 'Anguilla',
+          ],
+          'Antigua' => [
+            'exemplarCity' => 'Antigua',
+          ],
+          'Araguaina' => [
+            'exemplarCity' => 'Araguaina',
+          ],
+          'Argentina' => [
+            'La_Rioja' => [
+              'exemplarCity' => 'La Rioja',
+            ],
+            'Rio_Gallegos' => [
+              'exemplarCity' => 'Rio Gallegos',
+            ],
+            'Salta' => [
+              'exemplarCity' => 'Salta',
+            ],
+            'San_Juan' => [
+              'exemplarCity' => 'San Juan',
+            ],
+            'San_Luis' => [
+              'exemplarCity' => 'San Luis',
+            ],
+            'Tucuman' => [
+              'exemplarCity' => 'Tucuman',
+            ],
+            'Ushuaia' => [
+              'exemplarCity' => 'Ushuaia',
+            ],
+          ],
+          'Aruba' => [
+            'exemplarCity' => 'Aruba',
+          ],
+          'Asuncion' => [
+            'exemplarCity' => 'Asunción',
+          ],
+          'Bahia' => [
+            'exemplarCity' => 'Bahia',
+          ],
+          'Bahia_Banderas' => [
+            'exemplarCity' => 'Bahia Banderas',
+          ],
+          'Barbados' => [
+            'exemplarCity' => 'Barbados',
+          ],
+          'Belem' => [
+            'exemplarCity' => 'Belem',
+          ],
+          'Belize' => [
+            'exemplarCity' => 'Belize',
+          ],
+          'Blanc-Sablon' => [
+            'exemplarCity' => 'Blanc-Sablon',
+          ],
+          'Boa_Vista' => [
+            'exemplarCity' => 'Boa Vista',
+          ],
+          'Bogota' => [
+            'exemplarCity' => 'Bogota',
+          ],
+          'Boise' => [
+            'exemplarCity' => 'Boise',
+          ],
+          'Buenos_Aires' => [
+            'exemplarCity' => 'Buenos Aires',
+          ],
+          'Cambridge_Bay' => [
+            'exemplarCity' => 'Cambridge Bay',
+          ],
+          'Campo_Grande' => [
+            'exemplarCity' => 'Campo Grande',
+          ],
+          'Cancun' => [
+            'exemplarCity' => 'Cancun',
+          ],
+          'Caracas' => [
+            'exemplarCity' => 'Caracas',
+          ],
+          'Catamarca' => [
+            'exemplarCity' => 'Catamarca',
+          ],
+          'Cayenne' => [
+            'exemplarCity' => 'Cayenne',
+          ],
+          'Cayman' => [
+            'exemplarCity' => 'Cayman',
+          ],
+          'Chicago' => [
+            'exemplarCity' => 'Chicago',
+          ],
+          'Chihuahua' => [
+            'exemplarCity' => 'Chihuahua',
+          ],
+          'Coral_Harbour' => [
+            'exemplarCity' => 'Atikokan',
+          ],
+          'Cordoba' => [
+            'exemplarCity' => 'Cordoba',
+          ],
+          'Costa_Rica' => [
+            'exemplarCity' => 'Costa Rica',
+          ],
+          'Creston' => [
+            'exemplarCity' => 'Creston',
+          ],
+          'Cuiaba' => [
+            'exemplarCity' => 'Cuiaba',
+          ],
+          'Curacao' => [
+            'exemplarCity' => 'Curaçao',
+          ],
+          'Danmarkshavn' => [
+            'exemplarCity' => 'Danmarkshavn',
+          ],
+          'Dawson' => [
+            'exemplarCity' => 'Dawson',
+          ],
+          'Dawson_Creek' => [
+            'exemplarCity' => 'Dawson Creek',
+          ],
+          'Denver' => [
+            'exemplarCity' => 'Denver',
+          ],
+          'Detroit' => [
+            'exemplarCity' => 'Detroit',
+          ],
+          'Dominica' => [
+            'exemplarCity' => 'Dominica',
+          ],
+          'Edmonton' => [
+            'exemplarCity' => 'Edmonton',
+          ],
+          'Eirunepe' => [
+            'exemplarCity' => 'Eirunepe',
+          ],
+          'El_Salvador' => [
+            'exemplarCity' => 'El Salvador',
+          ],
+          'Fortaleza' => [
+            'exemplarCity' => 'Fortaleza',
+          ],
+          'Glace_Bay' => [
+            'exemplarCity' => 'Glace Bay',
+          ],
+          'Godthab' => [
+            'exemplarCity' => 'Nuuk',
+          ],
+          'Goose_Bay' => [
+            'exemplarCity' => 'Goose Bay',
+          ],
+          'Grand_Turk' => [
+            'exemplarCity' => 'Grand Turk',
+          ],
+          'Grenada' => [
+            'exemplarCity' => 'Grenada',
+          ],
+          'Guadeloupe' => [
+            'exemplarCity' => 'Guadeloupe',
+          ],
+          'Guatemala' => [
+            'exemplarCity' => 'Guatemala',
+          ],
+          'Guayaquil' => [
+            'exemplarCity' => 'Guayaquil',
+          ],
+          'Guyana' => [
+            'exemplarCity' => 'Guyana',
+          ],
+          'Halifax' => [
+            'exemplarCity' => 'Halifax',
+          ],
+          'Havana' => [
+            'exemplarCity' => 'Havana',
+          ],
+          'Hermosillo' => [
+            'exemplarCity' => 'Hermosillo',
+          ],
+          'Indiana' => [
+            'Knox' => [
+              'exemplarCity' => 'Knox, Indiana',
+            ],
+            'Marengo' => [
+              'exemplarCity' => 'Marengo, Indiana',
+            ],
+            'Petersburg' => [
+              'exemplarCity' => 'Petersburg, Indiana',
+            ],
+            'Tell_City' => [
+              'exemplarCity' => 'Tell City, Indiana',
+            ],
+            'Vevay' => [
+              'exemplarCity' => 'Vevay, Indiana',
+            ],
+            'Vincennes' => [
+              'exemplarCity' => 'Vincennes, Indiana',
+            ],
+            'Winamac' => [
+              'exemplarCity' => 'Winamac, Indiana',
+            ],
+          ],
+          'Indianapolis' => [
+            'exemplarCity' => 'Indianapolis',
+          ],
+          'Inuvik' => [
+            'exemplarCity' => 'Inuvik',
+          ],
+          'Iqaluit' => [
+            'exemplarCity' => 'Iqaluit',
+          ],
+          'Jamaica' => [
+            'exemplarCity' => 'Jamaica',
+          ],
+          'Jujuy' => [
+            'exemplarCity' => 'Jujuy',
+          ],
+          'Juneau' => [
+            'exemplarCity' => 'Juneau',
+          ],
+          'Kentucky' => [
+            'Monticello' => [
+              'exemplarCity' => 'Monticello, Kentucky',
+            ],
+          ],
+          'Kralendijk' => [
+            'exemplarCity' => 'Kralendijk',
+          ],
+          'La_Paz' => [
+            'exemplarCity' => 'La Paz',
+          ],
+          'Lima' => [
+            'exemplarCity' => 'Lima',
+          ],
+          'Los_Angeles' => [
+            'exemplarCity' => 'Los Angeles',
+          ],
+          'Louisville' => [
+            'exemplarCity' => 'Louisville',
+          ],
+          'Lower_Princes' => [
+            'exemplarCity' => 'Lower Prince’s Quarter',
+          ],
+          'Maceio' => [
+            'exemplarCity' => 'Maceio',
+          ],
+          'Managua' => [
+            'exemplarCity' => 'Managua',
+          ],
+          'Manaus' => [
+            'exemplarCity' => 'Manaus',
+          ],
+          'Marigot' => [
+            'exemplarCity' => 'Marigot',
+          ],
+          'Martinique' => [
+            'exemplarCity' => 'Martinique',
+          ],
+          'Matamoros' => [
+            'exemplarCity' => 'Matamoros',
+          ],
+          'Mazatlan' => [
+            'exemplarCity' => 'Mazatlan',
+          ],
+          'Mendoza' => [
+            'exemplarCity' => 'Mendoza',
+          ],
+          'Menominee' => [
+            'exemplarCity' => 'Menominee',
+          ],
+          'Merida' => [
+            'exemplarCity' => 'Merida',
+          ],
+          'Metlakatla' => [
+            'exemplarCity' => 'Metlakatla',
+          ],
+          'Mexico_City' => [
+            'exemplarCity' => 'Mexico City',
+          ],
+          'Miquelon' => [
+            'exemplarCity' => 'Miquelon',
+          ],
+          'Moncton' => [
+            'exemplarCity' => 'Moncton',
+          ],
+          'Monterrey' => [
+            'exemplarCity' => 'Monterrey',
+          ],
+          'Montevideo' => [
+            'exemplarCity' => 'Montevideo',
+          ],
+          'Montserrat' => [
+            'exemplarCity' => 'Montserrat',
+          ],
+          'Nassau' => [
+            'exemplarCity' => 'Nassau',
+          ],
+          'New_York' => [
+            'exemplarCity' => 'New York',
+          ],
+          'Nipigon' => [
+            'exemplarCity' => 'Nipigon',
+          ],
+          'Nome' => [
+            'exemplarCity' => 'Nome',
+          ],
+          'Noronha' => [
+            'exemplarCity' => 'Noronha',
+          ],
+          'North_Dakota' => [
+            'Beulah' => [
+              'exemplarCity' => 'Beulah, North Dakota',
+            ],
+            'Center' => [
+              'exemplarCity' => 'Center, North Dakota',
+            ],
+            'New_Salem' => [
+              'exemplarCity' => 'New Salem, North Dakota',
+            ],
+          ],
+          'Ojinaga' => [
+            'exemplarCity' => 'Ojinaga',
+          ],
+          'Panama' => [
+            'exemplarCity' => 'Panama',
+          ],
+          'Pangnirtung' => [
+            'exemplarCity' => 'Pangnirtung',
+          ],
+          'Paramaribo' => [
+            'exemplarCity' => 'Paramaribo',
+          ],
+          'Phoenix' => [
+            'exemplarCity' => 'Phoenix',
+          ],
+          'Port-au-Prince' => [
+            'exemplarCity' => 'Port-au-Prince',
+          ],
+          'Port_of_Spain' => [
+            'exemplarCity' => 'Port of Spain',
+          ],
+          'Porto_Velho' => [
+            'exemplarCity' => 'Porto Velho',
+          ],
+          'Puerto_Rico' => [
+            'exemplarCity' => 'Puerto Rico',
+          ],
+          'Rainy_River' => [
+            'exemplarCity' => 'Rainy River',
+          ],
+          'Rankin_Inlet' => [
+            'exemplarCity' => 'Rankin Inlet',
+          ],
+          'Recife' => [
+            'exemplarCity' => 'Recife',
+          ],
+          'Regina' => [
+            'exemplarCity' => 'Regina',
+          ],
+          'Resolute' => [
+            'exemplarCity' => 'Resolute',
+          ],
+          'Rio_Branco' => [
+            'exemplarCity' => 'Rio Branco',
+          ],
+          'Santa_Isabel' => [
+            'exemplarCity' => 'Santa Isabel',
+          ],
+          'Santarem' => [
+            'exemplarCity' => 'Santarem',
+          ],
+          'Santiago' => [
+            'exemplarCity' => 'Santiago',
+          ],
+          'Santo_Domingo' => [
+            'exemplarCity' => 'Santo Domingo',
+          ],
+          'Sao_Paulo' => [
+            'exemplarCity' => 'Sao Paulo',
+          ],
+          'Scoresbysund' => [
+            'exemplarCity' => 'Ittoqqortoormiit',
+          ],
+          'Sitka' => [
+            'exemplarCity' => 'Sitka',
+          ],
+          'St_Barthelemy' => [
+            'exemplarCity' => 'Saint Barthélemy',
+          ],
+          'St_Johns' => [
+            'exemplarCity' => 'St. John’s',
+          ],
+          'St_Kitts' => [
+            'exemplarCity' => 'St. Kitts',
+          ],
+          'St_Lucia' => [
+            'exemplarCity' => 'St. Lucia',
+          ],
+          'St_Thomas' => [
+            'exemplarCity' => 'St. Thomas',
+          ],
+          'St_Vincent' => [
+            'exemplarCity' => 'St. Vincent',
+          ],
+          'Swift_Current' => [
+            'exemplarCity' => 'Swift Current',
+          ],
+          'Tegucigalpa' => [
+            'exemplarCity' => 'Tegucigalpa',
+          ],
+          'Thule' => [
+            'exemplarCity' => 'Thule',
+          ],
+          'Thunder_Bay' => [
+            'exemplarCity' => 'Thunder Bay',
+          ],
+          'Tijuana' => [
+            'exemplarCity' => 'Tijuana',
+          ],
+          'Toronto' => [
+            'exemplarCity' => 'Toronto',
+          ],
+          'Tortola' => [
+            'exemplarCity' => 'Tortola',
+          ],
+          'Vancouver' => [
+            'exemplarCity' => 'Vancouver',
+          ],
+          'Whitehorse' => [
+            'exemplarCity' => 'Whitehorse',
+          ],
+          'Winnipeg' => [
+            'exemplarCity' => 'Winnipeg',
+          ],
+          'Yakutat' => [
+            'exemplarCity' => 'Yakutat',
+          ],
+          'Yellowknife' => [
+            'exemplarCity' => 'Yellowknife',
+          ],
+        ],
+        'Atlantic' => [
+          'Azores' => [
+            'exemplarCity' => 'Azores',
+          ],
+          'Bermuda' => [
+            'exemplarCity' => 'Bermuda',
+          ],
+          'Canary' => [
+            'exemplarCity' => 'Canary',
+          ],
+          'Cape_Verde' => [
+            'exemplarCity' => 'Cape Verde',
+          ],
+          'Faeroe' => [
+            'exemplarCity' => 'Faroe',
+          ],
+          'Madeira' => [
+            'exemplarCity' => 'Madeira',
+          ],
+          'Reykjavik' => [
+            'exemplarCity' => 'Reykjavik',
+          ],
+          'South_Georgia' => [
+            'exemplarCity' => 'South Georgia',
+          ],
+          'St_Helena' => [
+            'exemplarCity' => 'St. Helena',
+          ],
+          'Stanley' => [
+            'exemplarCity' => 'Stanley',
+          ],
+        ],
+        'Europe' => [
+          'Amsterdam' => [
+            'exemplarCity' => 'Amsterdam',
+          ],
+          'Andorra' => [
+            'exemplarCity' => 'Andorra',
+          ],
+          'Athens' => [
+            'exemplarCity' => 'Athens',
+          ],
+          'Belgrade' => [
+            'exemplarCity' => 'Belgrade',
+          ],
+          'Berlin' => [
+            'exemplarCity' => 'Berlin',
+          ],
+          'Bratislava' => [
+            'exemplarCity' => 'Bratislava',
+          ],
+          'Brussels' => [
+            'exemplarCity' => 'Brussels',
+          ],
+          'Bucharest' => [
+            'exemplarCity' => 'Bucharest',
+          ],
+          'Budapest' => [
+            'exemplarCity' => 'Budapest',
+          ],
+          'Busingen' => [
+            'exemplarCity' => 'Busingen',
+          ],
+          'Chisinau' => [
+            'exemplarCity' => 'Chisinau',
+          ],
+          'Copenhagen' => [
+            'exemplarCity' => 'Copenhagen',
+          ],
+          'Dublin' => [
+            'long' => [
+              'daylight' => 'Irish Summer Time',
+            ],
+            'exemplarCity' => 'Dublin',
+          ],
+          'Gibraltar' => [
+            'exemplarCity' => 'Gibraltar',
+          ],
+          'Guernsey' => [
+            'exemplarCity' => 'Guernsey',
+          ],
+          'Helsinki' => [
+            'exemplarCity' => 'Helsinki',
+          ],
+          'Isle_of_Man' => [
+            'exemplarCity' => 'Isle of Man',
+          ],
+          'Istanbul' => [
+            'exemplarCity' => 'Istanbul',
+          ],
+          'Jersey' => [
+            'exemplarCity' => 'Jersey',
+          ],
+          'Kaliningrad' => [
+            'exemplarCity' => 'Kaliningrad',
+          ],
+          'Kiev' => [
+            'exemplarCity' => 'Kiev',
+          ],
+          'Lisbon' => [
+            'exemplarCity' => 'Lisbon',
+          ],
+          'Ljubljana' => [
+            'exemplarCity' => 'Ljubljana',
+          ],
+          'London' => [
+            'long' => [
+              'daylight' => 'British Summer Time',
+            ],
+            'short' => [
+              'daylight' => 'BST',
+            ],
+            'exemplarCity' => 'London',
+          ],
+          'Luxembourg' => [
+            'exemplarCity' => 'Luxembourg',
+          ],
+          'Madrid' => [
+            'exemplarCity' => 'Madrid',
+          ],
+          'Malta' => [
+            'exemplarCity' => 'Malta',
+          ],
+          'Mariehamn' => [
+            'exemplarCity' => 'Mariehamn',
+          ],
+          'Minsk' => [
+            'exemplarCity' => 'Minsk',
+          ],
+          'Monaco' => [
+            'exemplarCity' => 'Monaco',
+          ],
+          'Moscow' => [
+            'exemplarCity' => 'Moscow',
+          ],
+          'Oslo' => [
+            'exemplarCity' => 'Oslo',
+          ],
+          'Paris' => [
+            'exemplarCity' => 'Paris',
+          ],
+          'Podgorica' => [
+            'exemplarCity' => 'Podgorica',
+          ],
+          'Prague' => [
+            'exemplarCity' => 'Prague',
+          ],
+          'Riga' => [
+            'exemplarCity' => 'Riga',
+          ],
+          'Rome' => [
+            'exemplarCity' => 'Rome',
+          ],
+          'Samara' => [
+            'exemplarCity' => 'Samara',
+          ],
+          'San_Marino' => [
+            'exemplarCity' => 'San Marino',
+          ],
+          'Sarajevo' => [
+            'exemplarCity' => 'Sarajevo',
+          ],
+          'Simferopol' => [
+            'exemplarCity' => 'Simferopol',
+          ],
+          'Skopje' => [
+            'exemplarCity' => 'Skopje',
+          ],
+          'Sofia' => [
+            'exemplarCity' => 'Sofia',
+          ],
+          'Stockholm' => [
+            'exemplarCity' => 'Stockholm',
+          ],
+          'Tallinn' => [
+            'exemplarCity' => 'Tallinn',
+          ],
+          'Tirane' => [
+            'exemplarCity' => 'Tirane',
+          ],
+          'Uzhgorod' => [
+            'exemplarCity' => 'Uzhgorod',
+          ],
+          'Vaduz' => [
+            'exemplarCity' => 'Vaduz',
+          ],
+          'Vatican' => [
+            'exemplarCity' => 'Vatican',
+          ],
+          'Vienna' => [
+            'exemplarCity' => 'Vienna',
+          ],
+          'Vilnius' => [
+            'exemplarCity' => 'Vilnius',
+          ],
+          'Volgograd' => [
+            'exemplarCity' => 'Volgograd',
+          ],
+          'Warsaw' => [
+            'exemplarCity' => 'Warsaw',
+          ],
+          'Zagreb' => [
+            'exemplarCity' => 'Zagreb',
+          ],
+          'Zaporozhye' => [
+            'exemplarCity' => 'Zaporozhye',
+          ],
+          'Zurich' => [
+            'exemplarCity' => 'Zurich',
+          ],
+        ],
+        'Africa' => [
+          'Abidjan' => [
+            'exemplarCity' => 'Abidjan',
+          ],
+          'Accra' => [
+            'exemplarCity' => 'Accra',
+          ],
+          'Addis_Ababa' => [
+            'exemplarCity' => 'Addis Ababa',
+          ],
+          'Algiers' => [
+            'exemplarCity' => 'Algiers',
+          ],
+          'Asmera' => [
+            'exemplarCity' => 'Asmara',
+          ],
+          'Bamako' => [
+            'exemplarCity' => 'Bamako',
+          ],
+          'Bangui' => [
+            'exemplarCity' => 'Bangui',
+          ],
+          'Banjul' => [
+            'exemplarCity' => 'Banjul',
+          ],
+          'Bissau' => [
+            'exemplarCity' => 'Bissau',
+          ],
+          'Blantyre' => [
+            'exemplarCity' => 'Blantyre',
+          ],
+          'Brazzaville' => [
+            'exemplarCity' => 'Brazzaville',
+          ],
+          'Bujumbura' => [
+            'exemplarCity' => 'Bujumbura',
+          ],
+          'Cairo' => [
+            'exemplarCity' => 'Cairo',
+          ],
+          'Casablanca' => [
+            'exemplarCity' => 'Casablanca',
+          ],
+          'Ceuta' => [
+            'exemplarCity' => 'Ceuta',
+          ],
+          'Conakry' => [
+            'exemplarCity' => 'Conakry',
+          ],
+          'Dakar' => [
+            'exemplarCity' => 'Dakar',
+          ],
+          'Dar_es_Salaam' => [
+            'exemplarCity' => 'Dar es Salaam',
+          ],
+          'Djibouti' => [
+            'exemplarCity' => 'Djibouti',
+          ],
+          'Douala' => [
+            'exemplarCity' => 'Douala',
+          ],
+          'El_Aaiun' => [
+            'exemplarCity' => 'El Aaiun',
+          ],
+          'Freetown' => [
+            'exemplarCity' => 'Freetown',
+          ],
+          'Gaborone' => [
+            'exemplarCity' => 'Gaborone',
+          ],
+          'Harare' => [
+            'exemplarCity' => 'Harare',
+          ],
+          'Johannesburg' => [
+            'exemplarCity' => 'Johannesburg',
+          ],
+          'Juba' => [
+            'exemplarCity' => 'Juba',
+          ],
+          'Kampala' => [
+            'exemplarCity' => 'Kampala',
+          ],
+          'Khartoum' => [
+            'exemplarCity' => 'Khartoum',
+          ],
+          'Kigali' => [
+            'exemplarCity' => 'Kigali',
+          ],
+          'Kinshasa' => [
+            'exemplarCity' => 'Kinshasa',
+          ],
+          'Lagos' => [
+            'exemplarCity' => 'Lagos',
+          ],
+          'Libreville' => [
+            'exemplarCity' => 'Libreville',
+          ],
+          'Lome' => [
+            'exemplarCity' => 'Lome',
+          ],
+          'Luanda' => [
+            'exemplarCity' => 'Luanda',
+          ],
+          'Lubumbashi' => [
+            'exemplarCity' => 'Lubumbashi',
+          ],
+          'Lusaka' => [
+            'exemplarCity' => 'Lusaka',
+          ],
+          'Malabo' => [
+            'exemplarCity' => 'Malabo',
+          ],
+          'Maputo' => [
+            'exemplarCity' => 'Maputo',
+          ],
+          'Maseru' => [
+            'exemplarCity' => 'Maseru',
+          ],
+          'Mbabane' => [
+            'exemplarCity' => 'Mbabane',
+          ],
+          'Mogadishu' => [
+            'exemplarCity' => 'Mogadishu',
+          ],
+          'Monrovia' => [
+            'exemplarCity' => 'Monrovia',
+          ],
+          'Nairobi' => [
+            'exemplarCity' => 'Nairobi',
+          ],
+          'Ndjamena' => [
+            'exemplarCity' => 'Ndjamena',
+          ],
+          'Niamey' => [
+            'exemplarCity' => 'Niamey',
+          ],
+          'Nouakchott' => [
+            'exemplarCity' => 'Nouakchott',
+          ],
+          'Ouagadougou' => [
+            'exemplarCity' => 'Ouagadougou',
+          ],
+          'Porto-Novo' => [
+            'exemplarCity' => 'Porto-Novo',
+          ],
+          'Sao_Tome' => [
+            'exemplarCity' => 'São Tomé',
+          ],
+          'Tripoli' => [
+            'exemplarCity' => 'Tripoli',
+          ],
+          'Tunis' => [
+            'exemplarCity' => 'Tunis',
+          ],
+          'Windhoek' => [
+            'exemplarCity' => 'Windhoek',
+          ],
+        ],
+        'Asia' => [
+          'Aden' => [
+            'exemplarCity' => 'Aden',
+          ],
+          'Almaty' => [
+            'exemplarCity' => 'Almaty',
+          ],
+          'Amman' => [
+            'exemplarCity' => 'Amman',
+          ],
+          'Anadyr' => [
+            'exemplarCity' => 'Anadyr',
+          ],
+          'Aqtau' => [
+            'exemplarCity' => 'Aqtau',
+          ],
+          'Aqtobe' => [
+            'exemplarCity' => 'Aqtobe',
+          ],
+          'Ashgabat' => [
+            'exemplarCity' => 'Ashgabat',
+          ],
+          'Baghdad' => [
+            'exemplarCity' => 'Baghdad',
+          ],
+          'Bahrain' => [
+            'exemplarCity' => 'Bahrain',
+          ],
+          'Baku' => [
+            'exemplarCity' => 'Baku',
+          ],
+          'Bangkok' => [
+            'exemplarCity' => 'Bangkok',
+          ],
+          'Beirut' => [
+            'exemplarCity' => 'Beirut',
+          ],
+          'Bishkek' => [
+            'exemplarCity' => 'Bishkek',
+          ],
+          'Brunei' => [
+            'exemplarCity' => 'Brunei',
+          ],
+          'Calcutta' => [
+            'exemplarCity' => 'Kolkata',
+          ],
+          'Chita' => [
+            'exemplarCity' => 'Chita',
+          ],
+          'Choibalsan' => [
+            'exemplarCity' => 'Choibalsan',
+          ],
+          'Chongqing' => [
+            'exemplarCity' => 'Chongqing',
+          ],
+          'Colombo' => [
+            'exemplarCity' => 'Colombo',
+          ],
+          'Damascus' => [
+            'exemplarCity' => 'Damascus',
+          ],
+          'Dhaka' => [
+            'exemplarCity' => 'Dhaka',
+          ],
+          'Dili' => [
+            'exemplarCity' => 'Dili',
+          ],
+          'Dubai' => [
+            'exemplarCity' => 'Dubai',
+          ],
+          'Dushanbe' => [
+            'exemplarCity' => 'Dushanbe',
+          ],
+          'Gaza' => [
+            'exemplarCity' => 'Gaza',
+          ],
+          'Harbin' => [
+            'exemplarCity' => 'Harbin',
+          ],
+          'Hebron' => [
+            'exemplarCity' => 'Hebron',
+          ],
+          'Hong_Kong' => [
+            'exemplarCity' => 'Hong Kong',
+          ],
+          'Hovd' => [
+            'exemplarCity' => 'Hovd',
+          ],
+          'Irkutsk' => [
+            'exemplarCity' => 'Irkutsk',
+          ],
+          'Jakarta' => [
+            'exemplarCity' => 'Jakarta',
+          ],
+          'Jayapura' => [
+            'exemplarCity' => 'Jayapura',
+          ],
+          'Jerusalem' => [
+            'exemplarCity' => 'Jerusalem',
+          ],
+          'Kabul' => [
+            'exemplarCity' => 'Kabul',
+          ],
+          'Kamchatka' => [
+            'exemplarCity' => 'Kamchatka',
+          ],
+          'Karachi' => [
+            'exemplarCity' => 'Karachi',
+          ],
+          'Kashgar' => [
+            'exemplarCity' => 'Kashgar',
+          ],
+          'Katmandu' => [
+            'exemplarCity' => 'Kathmandu',
+          ],
+          'Khandyga' => [
+            'exemplarCity' => 'Khandyga',
+          ],
+          'Krasnoyarsk' => [
+            'exemplarCity' => 'Krasnoyarsk',
+          ],
+          'Kuala_Lumpur' => [
+            'exemplarCity' => 'Kuala Lumpur',
+          ],
+          'Kuching' => [
+            'exemplarCity' => 'Kuching',
+          ],
+          'Kuwait' => [
+            'exemplarCity' => 'Kuwait',
+          ],
+          'Macau' => [
+            'exemplarCity' => 'Macau',
+          ],
+          'Magadan' => [
+            'exemplarCity' => 'Magadan',
+          ],
+          'Makassar' => [
+            'exemplarCity' => 'Makassar',
+          ],
+          'Manila' => [
+            'exemplarCity' => 'Manila',
+          ],
+          'Muscat' => [
+            'exemplarCity' => 'Muscat',
+          ],
+          'Nicosia' => [
+            'exemplarCity' => 'Nicosia',
+          ],
+          'Novokuznetsk' => [
+            'exemplarCity' => 'Novokuznetsk',
+          ],
+          'Novosibirsk' => [
+            'exemplarCity' => 'Novosibirsk',
+          ],
+          'Omsk' => [
+            'exemplarCity' => 'Omsk',
+          ],
+          'Oral' => [
+            'exemplarCity' => 'Oral',
+          ],
+          'Phnom_Penh' => [
+            'exemplarCity' => 'Phnom Penh',
+          ],
+          'Pontianak' => [
+            'exemplarCity' => 'Pontianak',
+          ],
+          'Pyongyang' => [
+            'exemplarCity' => 'Pyongyang',
+          ],
+          'Qatar' => [
+            'exemplarCity' => 'Qatar',
+          ],
+          'Qyzylorda' => [
+            'exemplarCity' => 'Qyzylorda',
+          ],
+          'Rangoon' => [
+            'exemplarCity' => 'Rangoon',
+          ],
+          'Riyadh' => [
+            'exemplarCity' => 'Riyadh',
+          ],
+          'Saigon' => [
+            'exemplarCity' => 'Ho Chi Minh City',
+          ],
+          'Sakhalin' => [
+            'exemplarCity' => 'Sakhalin',
+          ],
+          'Samarkand' => [
+            'exemplarCity' => 'Samarkand',
+          ],
+          'Seoul' => [
+            'exemplarCity' => 'Seoul',
+          ],
+          'Shanghai' => [
+            'exemplarCity' => 'Shanghai',
+          ],
+          'Singapore' => [
+            'exemplarCity' => 'Singapore',
+          ],
+          'Srednekolymsk' => [
+            'exemplarCity' => 'Srednekolymsk',
+          ],
+          'Taipei' => [
+            'exemplarCity' => 'Taipei',
+          ],
+          'Tashkent' => [
+            'exemplarCity' => 'Tashkent',
+          ],
+          'Tbilisi' => [
+            'exemplarCity' => 'Tbilisi',
+          ],
+          'Tehran' => [
+            'exemplarCity' => 'Tehran',
+          ],
+          'Thimphu' => [
+            'exemplarCity' => 'Thimphu',
+          ],
+          'Tokyo' => [
+            'exemplarCity' => 'Tokyo',
+          ],
+          'Ulaanbaatar' => [
+            'exemplarCity' => 'Ulaanbaatar',
+          ],
+          'Urumqi' => [
+            'exemplarCity' => 'Urumqi',
+          ],
+          'Ust-Nera' => [
+            'exemplarCity' => 'Ust-Nera',
+          ],
+          'Vientiane' => [
+            'exemplarCity' => 'Vientiane',
+          ],
+          'Vladivostok' => [
+            'exemplarCity' => 'Vladivostok',
+          ],
+          'Yakutsk' => [
+            'exemplarCity' => 'Yakutsk',
+          ],
+          'Yekaterinburg' => [
+            'exemplarCity' => 'Yekaterinburg',
+          ],
+          'Yerevan' => [
+            'exemplarCity' => 'Yerevan',
+          ],
+        ],
+        'Indian' => [
+          'Antananarivo' => [
+            'exemplarCity' => 'Antananarivo',
+          ],
+          'Chagos' => [
+            'exemplarCity' => 'Chagos',
+          ],
+          'Christmas' => [
+            'exemplarCity' => 'Christmas',
+          ],
+          'Cocos' => [
+            'exemplarCity' => 'Cocos',
+          ],
+          'Comoro' => [
+            'exemplarCity' => 'Comoro',
+          ],
+          'Kerguelen' => [
+            'exemplarCity' => 'Kerguelen',
+          ],
+          'Mahe' => [
+            'exemplarCity' => 'Mahe',
+          ],
+          'Maldives' => [
+            'exemplarCity' => 'Maldives',
+          ],
+          'Mauritius' => [
+            'exemplarCity' => 'Mauritius',
+          ],
+          'Mayotte' => [
+            'exemplarCity' => 'Mayotte',
+          ],
+          'Reunion' => [
+            'exemplarCity' => 'Réunion',
+          ],
+        ],
+        'Australia' => [
+          'Adelaide' => [
+            'exemplarCity' => 'Adelaide',
+          ],
+          'Brisbane' => [
+            'exemplarCity' => 'Brisbane',
+          ],
+          'Broken_Hill' => [
+            'exemplarCity' => 'Broken Hill',
+          ],
+          'Currie' => [
+            'exemplarCity' => 'Currie',
+          ],
+          'Darwin' => [
+            'exemplarCity' => 'Darwin',
+          ],
+          'Eucla' => [
+            'exemplarCity' => 'Eucla',
+          ],
+          'Hobart' => [
+            'exemplarCity' => 'Hobart',
+          ],
+          'Lindeman' => [
+            'exemplarCity' => 'Lindeman',
+          ],
+          'Lord_Howe' => [
+            'exemplarCity' => 'Lord Howe',
+          ],
+          'Melbourne' => [
+            'exemplarCity' => 'Melbourne',
+          ],
+          'Perth' => [
+            'exemplarCity' => 'Perth',
+          ],
+          'Sydney' => [
+            'exemplarCity' => 'Sydney',
+          ],
+        ],
+        'Pacific' => [
+          'Apia' => [
+            'exemplarCity' => 'Apia',
+          ],
+          'Auckland' => [
+            'exemplarCity' => 'Auckland',
+          ],
+          'Chatham' => [
+            'exemplarCity' => 'Chatham',
+          ],
+          'Easter' => [
+            'exemplarCity' => 'Easter',
+          ],
+          'Efate' => [
+            'exemplarCity' => 'Efate',
+          ],
+          'Enderbury' => [
+            'exemplarCity' => 'Enderbury',
+          ],
+          'Fakaofo' => [
+            'exemplarCity' => 'Fakaofo',
+          ],
+          'Fiji' => [
+            'exemplarCity' => 'Fiji',
+          ],
+          'Funafuti' => [
+            'exemplarCity' => 'Funafuti',
+          ],
+          'Galapagos' => [
+            'exemplarCity' => 'Galapagos',
+          ],
+          'Gambier' => [
+            'exemplarCity' => 'Gambier',
+          ],
+          'Guadalcanal' => [
+            'exemplarCity' => 'Guadalcanal',
+          ],
+          'Guam' => [
+            'exemplarCity' => 'Guam',
+          ],
+          'Honolulu' => [
+            'exemplarCity' => 'Honolulu',
+          ],
+          'Johnston' => [
+            'exemplarCity' => 'Johnston',
+          ],
+          'Kiritimati' => [
+            'exemplarCity' => 'Kiritimati',
+          ],
+          'Kosrae' => [
+            'exemplarCity' => 'Kosrae',
+          ],
+          'Kwajalein' => [
+            'exemplarCity' => 'Kwajalein',
+          ],
+          'Majuro' => [
+            'exemplarCity' => 'Majuro',
+          ],
+          'Marquesas' => [
+            'exemplarCity' => 'Marquesas',
+          ],
+          'Midway' => [
+            'exemplarCity' => 'Midway',
+          ],
+          'Nauru' => [
+            'exemplarCity' => 'Nauru',
+          ],
+          'Niue' => [
+            'exemplarCity' => 'Niue',
+          ],
+          'Norfolk' => [
+            'exemplarCity' => 'Norfolk',
+          ],
+          'Noumea' => [
+            'exemplarCity' => 'Noumea',
+          ],
+          'Pago_Pago' => [
+            'exemplarCity' => 'Pago Pago',
+          ],
+          'Palau' => [
+            'exemplarCity' => 'Palau',
+          ],
+          'Pitcairn' => [
+            'exemplarCity' => 'Pitcairn',
+          ],
+          'Ponape' => [
+            'exemplarCity' => 'Pohnpei',
+          ],
+          'Port_Moresby' => [
+            'exemplarCity' => 'Port Moresby',
+          ],
+          'Rarotonga' => [
+            'exemplarCity' => 'Rarotonga',
+          ],
+          'Saipan' => [
+            'exemplarCity' => 'Saipan',
+          ],
+          'Tahiti' => [
+            'exemplarCity' => 'Tahiti',
+          ],
+          'Tarawa' => [
+            'exemplarCity' => 'Tarawa',
+          ],
+          'Tongatapu' => [
+            'exemplarCity' => 'Tongatapu',
+          ],
+          'Truk' => [
+            'exemplarCity' => 'Chuuk',
+          ],
+          'Wake' => [
+            'exemplarCity' => 'Wake',
+          ],
+          'Wallis' => [
+            'exemplarCity' => 'Wallis',
+          ],
+        ],
+        'Arctic' => [
+          'Longyearbyen' => [
+            'exemplarCity' => 'Longyearbyen',
+          ],
+        ],
+        'Antarctica' => [
+          'Casey' => [
+            'exemplarCity' => 'Casey',
+          ],
+          'Davis' => [
+            'exemplarCity' => 'Davis',
+          ],
+          'DumontDUrville' => [
+            'exemplarCity' => 'Dumont d’Urville',
+          ],
+          'Macquarie' => [
+            'exemplarCity' => 'Macquarie',
+          ],
+          'Mawson' => [
+            'exemplarCity' => 'Mawson',
+          ],
+          'McMurdo' => [
+            'exemplarCity' => 'McMurdo',
+          ],
+          'Palmer' => [
+            'exemplarCity' => 'Palmer',
+          ],
+          'Rothera' => [
+            'exemplarCity' => 'Rothera',
+          ],
+          'Syowa' => [
+            'exemplarCity' => 'Syowa',
+          ],
+          'Troll' => [
+            'exemplarCity' => 'Troll',
+          ],
+          'Vostok' => [
+            'exemplarCity' => 'Vostok',
+          ],
+        ],
+        'Etc' => [
+          'GMT' => [
+            'exemplarCity' => 'GMT',
+          ],
+          'GMT1' => [
+            'exemplarCity' => 'GMT+1',
+          ],
+          'GMT10' => [
+            'exemplarCity' => 'GMT+10',
+          ],
+          'GMT11' => [
+            'exemplarCity' => 'GMT+11',
+          ],
+          'GMT12' => [
+            'exemplarCity' => 'GMT+12',
+          ],
+          'GMT2' => [
+            'exemplarCity' => 'GMT+2',
+          ],
+          'GMT3' => [
+            'exemplarCity' => 'GMT+3',
+          ],
+          'GMT4' => [
+            'exemplarCity' => 'GMT+4',
+          ],
+          'GMT5' => [
+            'exemplarCity' => 'GMT+5',
+          ],
+          'GMT6' => [
+            'exemplarCity' => 'GMT+6',
+          ],
+          'GMT7' => [
+            'exemplarCity' => 'GMT+7',
+          ],
+          'GMT8' => [
+            'exemplarCity' => 'GMT+8',
+          ],
+          'GMT9' => [
+            'exemplarCity' => 'GMT+9',
+          ],
+          'GMT-1' => [
+            'exemplarCity' => 'GMT-1',
+          ],
+          'GMT-10' => [
+            'exemplarCity' => 'GMT-10',
+          ],
+          'GMT-11' => [
+            'exemplarCity' => 'GMT-11',
+          ],
+          'GMT-12' => [
+            'exemplarCity' => 'GMT-12',
+          ],
+          'GMT-13' => [
+            'exemplarCity' => 'GMT-13',
+          ],
+          'GMT-14' => [
+            'exemplarCity' => 'GMT-14',
+          ],
+          'GMT-2' => [
+            'exemplarCity' => 'GMT-2',
+          ],
+          'GMT-3' => [
+            'exemplarCity' => 'GMT-3',
+          ],
+          'GMT-4' => [
+            'exemplarCity' => 'GMT-4',
+          ],
+          'GMT-5' => [
+            'exemplarCity' => 'GMT-5',
+          ],
+          'GMT-6' => [
+            'exemplarCity' => 'GMT-6',
+          ],
+          'GMT-7' => [
+            'exemplarCity' => 'GMT-7',
+          ],
+          'GMT-8' => [
+            'exemplarCity' => 'GMT-8',
+          ],
+          'GMT-9' => [
+            'exemplarCity' => 'GMT-9',
+          ],
+          'Unknown' => [
+            'exemplarCity' => 'Unknown City',
+          ],
+        ],
+      ],
+      'metazone' => [
+        'Acre' => [
+          'long' => [
+            'generic' => 'Acre Time',
+            'standard' => 'Acre Standard Time',
+            'daylight' => 'Acre Summer Time',
+          ],
+        ],
+        'Afghanistan' => [
+          'long' => [
+            'standard' => 'Afghanistan Time',
+          ],
+        ],
+        'Africa_Central' => [
+          'long' => [
+            'standard' => 'Central Africa Time',
+          ],
+        ],
+        'Africa_Eastern' => [
+          'long' => [
+            'standard' => 'East Africa Time',
+          ],
+        ],
+        'Africa_Southern' => [
+          'long' => [
+            'standard' => 'South Africa Standard Time',
+          ],
+        ],
+        'Africa_Western' => [
+          'long' => [
+            'generic' => 'West Africa Time',
+            'standard' => 'West Africa Standard Time',
+            'daylight' => 'West Africa Summer Time',
+          ],
+        ],
+        'Alaska' => [
+          'long' => [
+            'generic' => 'Alaska Time',
+            'standard' => 'Alaska Standard Time',
+            'daylight' => 'Alaska Daylight Time',
+          ],
+        ],
+        'Almaty' => [
+          'long' => [
+            'generic' => 'Almaty Time',
+            'standard' => 'Almaty Standard Time',
+            'daylight' => 'Almaty Summer Time',
+          ],
+        ],
+        'Amazon' => [
+          'long' => [
+            'generic' => 'Amazon Time',
+            'standard' => 'Amazon Standard Time',
+            'daylight' => 'Amazon Summer Time',
+          ],
+        ],
+        'America_Central' => [
+          'long' => [
+            'generic' => 'Central Time',
+            'standard' => 'Central Standard Time',
+            'daylight' => 'Central Daylight Time',
+          ],
+        ],
+        'America_Eastern' => [
+          'long' => [
+            'generic' => 'Eastern Time',
+            'standard' => 'Eastern Standard Time',
+            'daylight' => 'Eastern Daylight Time',
+          ],
+        ],
+        'America_Mountain' => [
+          'long' => [
+            'generic' => 'Mountain Time',
+            'standard' => 'Mountain Standard Time',
+            'daylight' => 'Mountain Daylight Time',
+          ],
+        ],
+        'America_Pacific' => [
+          'long' => [
+            'generic' => 'Pacific Time',
+            'standard' => 'Pacific Standard Time',
+            'daylight' => 'Pacific Daylight Time',
+          ],
+        ],
+        'Anadyr' => [
+          'long' => [
+            'generic' => 'Anadyr Time',
+            'standard' => 'Anadyr Standard Time',
+            'daylight' => 'Anadyr Summer Time',
+          ],
+        ],
+        'Apia' => [
+          'long' => [
+            'generic' => 'Apia Time',
+            'standard' => 'Apia Standard Time',
+            'daylight' => 'Apia Daylight Time',
+          ],
+        ],
+        'Aqtau' => [
+          'long' => [
+            'generic' => 'Aqtau Time',
+            'standard' => 'Aqtau Standard Time',
+            'daylight' => 'Aqtau Summer Time',
+          ],
+        ],
+        'Aqtobe' => [
+          'long' => [
+            'generic' => 'Aqtobe Time',
+            'standard' => 'Aqtobe Standard Time',
+            'daylight' => 'Aqtobe Summer Time',
+          ],
+        ],
+        'Arabian' => [
+          'long' => [
+            'generic' => 'Arabian Time',
+            'standard' => 'Arabian Standard Time',
+            'daylight' => 'Arabian Summer Time',
+          ],
+        ],
+        'Argentina' => [
+          'long' => [
+            'generic' => 'Argentina Time',
+            'standard' => 'Argentina Standard Time',
+            'daylight' => 'Argentina Summer Time',
+          ],
+        ],
+        'Argentina_Western' => [
+          'long' => [
+            'generic' => 'Western Argentina Time',
+            'standard' => 'Western Argentina Standard Time',
+            'daylight' => 'Western Argentina Summer Time',
+          ],
+        ],
+        'Armenia' => [
+          'long' => [
+            'generic' => 'Armenia Time',
+            'standard' => 'Armenia Standard Time',
+            'daylight' => 'Armenia Summer Time',
+          ],
+        ],
+        'Atlantic' => [
+          'long' => [
+            'generic' => 'Atlantic Time',
+            'standard' => 'Atlantic Standard Time',
+            'daylight' => 'Atlantic Daylight Time',
+          ],
+        ],
+        'Australia_Central' => [
+          'long' => [
+            'generic' => 'Central Australia Time',
+            'standard' => 'Australian Central Standard Time',
+            'daylight' => 'Australian Central Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'ACT',
+            'standard' => 'ACST',
+            'daylight' => 'ACDT',
+          ],
+        ],
+        'Australia_CentralWestern' => [
+          'long' => [
+            'generic' => 'Australian Central Western Time',
+            'standard' => 'Australian Central Western Standard Time',
+            'daylight' => 'Australian Central Western Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'ACWT',
+            'standard' => 'ACWST',
+            'daylight' => 'ACWDT',
+          ],
+        ],
+        'Australia_Eastern' => [
+          'long' => [
+            'generic' => 'Eastern Australia Time',
+            'standard' => 'Australian Eastern Standard Time',
+            'daylight' => 'Australian Eastern Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'AET',
+            'standard' => 'AEST',
+            'daylight' => 'AEDT',
+          ],
+        ],
+        'Australia_Western' => [
+          'long' => [
+            'generic' => 'Western Australia Time',
+            'standard' => 'Australian Western Standard Time',
+            'daylight' => 'Australian Western Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'AWT',
+            'standard' => 'AWST',
+            'daylight' => 'AWDT',
+          ],
+        ],
+        'Azerbaijan' => [
+          'long' => [
+            'generic' => 'Azerbaijan Time',
+            'standard' => 'Azerbaijan Standard Time',
+            'daylight' => 'Azerbaijan Summer Time',
+          ],
+        ],
+        'Azores' => [
+          'long' => [
+            'generic' => 'Azores Time',
+            'standard' => 'Azores Standard Time',
+            'daylight' => 'Azores Summer Time',
+          ],
+        ],
+        'Bangladesh' => [
+          'long' => [
+            'generic' => 'Bangladesh Time',
+            'standard' => 'Bangladesh Standard Time',
+            'daylight' => 'Bangladesh Summer Time',
+          ],
+        ],
+        'Bhutan' => [
+          'long' => [
+            'standard' => 'Bhutan Time',
+          ],
+        ],
+        'Bolivia' => [
+          'long' => [
+            'standard' => 'Bolivia Time',
+          ],
+        ],
+        'Brasilia' => [
+          'long' => [
+            'generic' => 'Brasilia Time',
+            'standard' => 'Brasilia Standard Time',
+            'daylight' => 'Brasilia Summer Time',
+          ],
+        ],
+        'Brunei' => [
+          'long' => [
+            'standard' => 'Brunei Darussalam Time',
+          ],
+        ],
+        'Cape_Verde' => [
+          'long' => [
+            'generic' => 'Cape Verde Time',
+            'standard' => 'Cape Verde Standard Time',
+            'daylight' => 'Cape Verde Summer Time',
+          ],
+        ],
+        'Casey' => [
+          'long' => [
+            'standard' => 'Casey Time',
+          ],
+        ],
+        'Chamorro' => [
+          'long' => [
+            'standard' => 'Chamorro Standard Time',
+          ],
+        ],
+        'Chatham' => [
+          'long' => [
+            'generic' => 'Chatham Time',
+            'standard' => 'Chatham Standard Time',
+            'daylight' => 'Chatham Daylight Time',
+          ],
+        ],
+        'Chile' => [
+          'long' => [
+            'generic' => 'Chile Time',
+            'standard' => 'Chile Standard Time',
+            'daylight' => 'Chile Summer Time',
+          ],
+        ],
+        'China' => [
+          'long' => [
+            'generic' => 'China Time',
+            'standard' => 'China Standard Time',
+            'daylight' => 'China Summer Time',
+          ],
+        ],
+        'Choibalsan' => [
+          'long' => [
+            'generic' => 'Choibalsan Time',
+            'standard' => 'Choibalsan Standard Time',
+            'daylight' => 'Choibalsan Summer Time',
+          ],
+        ],
+        'Christmas' => [
+          'long' => [
+            'standard' => 'Christmas Island Time',
+          ],
+        ],
+        'Cocos' => [
+          'long' => [
+            'standard' => 'Cocos Islands Time',
+          ],
+        ],
+        'Colombia' => [
+          'long' => [
+            'generic' => 'Colombia Time',
+            'standard' => 'Colombia Standard Time',
+            'daylight' => 'Colombia Summer Time',
+          ],
+        ],
+        'Cook' => [
+          'long' => [
+            'generic' => 'Cook Islands Time',
+            'standard' => 'Cook Islands Standard Time',
+            'daylight' => 'Cook Islands Half Summer Time',
+          ],
+        ],
+        'Cuba' => [
+          'long' => [
+            'generic' => 'Cuba Time',
+            'standard' => 'Cuba Standard Time',
+            'daylight' => 'Cuba Daylight Time',
+          ],
+        ],
+        'Davis' => [
+          'long' => [
+            'standard' => 'Davis Time',
+          ],
+        ],
+        'DumontDUrville' => [
+          'long' => [
+            'standard' => 'Dumont-d’Urville Time',
+          ],
+        ],
+        'East_Timor' => [
+          'long' => [
+            'standard' => 'East Timor Time',
+          ],
+        ],
+        'Easter' => [
+          'long' => [
+            'generic' => 'Easter Island Time',
+            'standard' => 'Easter Island Standard Time',
+            'daylight' => 'Easter Island Summer Time',
+          ],
+        ],
+        'Ecuador' => [
+          'long' => [
+            'standard' => 'Ecuador Time',
+          ],
+        ],
+        'Europe_Central' => [
+          'long' => [
+            'generic' => 'Central European Time',
+            'standard' => 'Central European Standard Time',
+            'daylight' => 'Central European Summer Time',
+          ],
+        ],
+        'Europe_Eastern' => [
+          'long' => [
+            'generic' => 'Eastern European Time',
+            'standard' => 'Eastern European Standard Time',
+            'daylight' => 'Eastern European Summer Time',
+          ],
+        ],
+        'Europe_Further_Eastern' => [
+          'long' => [
+            'standard' => 'Further-eastern European Time',
+          ],
+        ],
+        'Europe_Western' => [
+          'long' => [
+            'generic' => 'Western European Time',
+            'standard' => 'Western European Standard Time',
+            'daylight' => 'Western European Summer Time',
+          ],
+        ],
+        'Falkland' => [
+          'long' => [
+            'generic' => 'Falkland Islands Time',
+            'standard' => 'Falkland Islands Standard Time',
+            'daylight' => 'Falkland Islands Summer Time',
+          ],
+        ],
+        'Fiji' => [
+          'long' => [
+            'generic' => 'Fiji Time',
+            'standard' => 'Fiji Standard Time',
+            'daylight' => 'Fiji Summer Time',
+          ],
+        ],
+        'French_Guiana' => [
+          'long' => [
+            'standard' => 'French Guiana Time',
+          ],
+        ],
+        'French_Southern' => [
+          'long' => [
+            'standard' => 'French Southern and Antarctic Time',
+          ],
+        ],
+        'GMT' => [
+          'long' => [
+            'standard' => 'Greenwich Mean Time',
+          ],
+          'short' => [
+            'standard' => 'GMT',
+          ],
+        ],
+        'Galapagos' => [
+          'long' => [
+            'standard' => 'Galapagos Time',
+          ],
+        ],
+        'Gambier' => [
+          'long' => [
+            'standard' => 'Gambier Time',
+          ],
+        ],
+        'Georgia' => [
+          'long' => [
+            'generic' => 'Georgia Time',
+            'standard' => 'Georgia Standard Time',
+            'daylight' => 'Georgia Summer Time',
+          ],
+        ],
+        'Gilbert_Islands' => [
+          'long' => [
+            'standard' => 'Gilbert Islands Time',
+          ],
+        ],
+        'Greenland_Eastern' => [
+          'long' => [
+            'generic' => 'East Greenland Time',
+            'standard' => 'East Greenland Standard Time',
+            'daylight' => 'East Greenland Summer Time',
+          ],
+        ],
+        'Greenland_Western' => [
+          'long' => [
+            'generic' => 'West Greenland Time',
+            'standard' => 'West Greenland Standard Time',
+            'daylight' => 'West Greenland Summer Time',
+          ],
+        ],
+        'Guam' => [
+          'long' => [
+            'standard' => 'Guam Standard Time',
+          ],
+        ],
+        'Gulf' => [
+          'long' => [
+            'standard' => 'Gulf Standard Time',
+          ],
+        ],
+        'Guyana' => [
+          'long' => [
+            'standard' => 'Guyana Time',
+          ],
+        ],
+        'Hawaii_Aleutian' => [
+          'long' => [
+            'generic' => 'Hawaii-Aleutian Time',
+            'standard' => 'Hawaii-Aleutian Standard Time',
+            'daylight' => 'Hawaii-Aleutian Daylight Time',
+          ],
+        ],
+        'Hong_Kong' => [
+          'long' => [
+            'generic' => 'Hong Kong Time',
+            'standard' => 'Hong Kong Standard Time',
+            'daylight' => 'Hong Kong Summer Time',
+          ],
+        ],
+        'Hovd' => [
+          'long' => [
+            'generic' => 'Hovd Time',
+            'standard' => 'Hovd Standard Time',
+            'daylight' => 'Hovd Summer Time',
+          ],
+        ],
+        'India' => [
+          'long' => [
+            'standard' => 'India Standard Time',
+          ],
+        ],
+        'Indian_Ocean' => [
+          'long' => [
+            'standard' => 'Indian Ocean Time',
+          ],
+        ],
+        'Indochina' => [
+          'long' => [
+            'standard' => 'Indochina Time',
+          ],
+        ],
+        'Indonesia_Central' => [
+          'long' => [
+            'standard' => 'Central Indonesia Time',
+          ],
+        ],
+        'Indonesia_Eastern' => [
+          'long' => [
+            'standard' => 'Eastern Indonesia Time',
+          ],
+        ],
+        'Indonesia_Western' => [
+          'long' => [
+            'standard' => 'Western Indonesia Time',
+          ],
+        ],
+        'Iran' => [
+          'long' => [
+            'generic' => 'Iran Time',
+            'standard' => 'Iran Standard Time',
+            'daylight' => 'Iran Summer Time',
+          ],
+        ],
+        'Irkutsk' => [
+          'long' => [
+            'generic' => 'Irkutsk Time',
+            'standard' => 'Irkutsk Standard Time',
+            'daylight' => 'Irkutsk Summer Time',
+          ],
+        ],
+        'Israel' => [
+          'long' => [
+            'generic' => 'Israel Time',
+            'standard' => 'Israel Standard Time',
+            'daylight' => 'Israel Summer Time',
+          ],
+        ],
+        'Japan' => [
+          'long' => [
+            'generic' => 'Japan Time',
+            'standard' => 'Japan Standard Time',
+            'daylight' => 'Japan Summer Time',
+          ],
+        ],
+        'Kamchatka' => [
+          'long' => [
+            'generic' => 'Petropavlovsk-Kamchatski Time',
+            'standard' => 'Petropavlovsk-Kamchatski Standard Time',
+            'daylight' => 'Petropavlovsk-Kamchatski Summer Time',
+          ],
+        ],
+        'Kazakhstan_Eastern' => [
+          'long' => [
+            'standard' => 'East Kazakhstan Time',
+          ],
+        ],
+        'Kazakhstan_Western' => [
+          'long' => [
+            'standard' => 'West Kazakhstan Time',
+          ],
+        ],
+        'Korea' => [
+          'long' => [
+            'generic' => 'Korean Time',
+            'standard' => 'Korean Standard Time',
+            'daylight' => 'Korean Summer Time',
+          ],
+        ],
+        'Kosrae' => [
+          'long' => [
+            'standard' => 'Kosrae Time',
+          ],
+        ],
+        'Krasnoyarsk' => [
+          'long' => [
+            'generic' => 'Krasnoyarsk Time',
+            'standard' => 'Krasnoyarsk Standard Time',
+            'daylight' => 'Krasnoyarsk Summer Time',
+          ],
+        ],
+        'Kyrgystan' => [
+          'long' => [
+            'standard' => 'Kyrgystan Time',
+          ],
+        ],
+        'Lanka' => [
+          'long' => [
+            'standard' => 'Lanka Time',
+          ],
+        ],
+        'Line_Islands' => [
+          'long' => [
+            'standard' => 'Line Islands Time',
+          ],
+        ],
+        'Lord_Howe' => [
+          'long' => [
+            'generic' => 'Lord Howe Time',
+            'standard' => 'Lord Howe Standard Time',
+            'daylight' => 'Lord Howe Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'LHT',
+            'standard' => 'LHST',
+            'daylight' => 'LHDT',
+          ],
+        ],
+        'Macau' => [
+          'long' => [
+            'generic' => 'Macau Time',
+            'standard' => 'Macau Standard Time',
+            'daylight' => 'Macau Summer Time',
+          ],
+        ],
+        'Macquarie' => [
+          'long' => [
+            'standard' => 'Macquarie Island Time',
+          ],
+        ],
+        'Magadan' => [
+          'long' => [
+            'generic' => 'Magadan Time',
+            'standard' => 'Magadan Standard Time',
+            'daylight' => 'Magadan Summer Time',
+          ],
+        ],
+        'Malaysia' => [
+          'long' => [
+            'standard' => 'Malaysia Time',
+          ],
+        ],
+        'Maldives' => [
+          'long' => [
+            'standard' => 'Maldives Time',
+          ],
+        ],
+        'Marquesas' => [
+          'long' => [
+            'standard' => 'Marquesas Time',
+          ],
+        ],
+        'Marshall_Islands' => [
+          'long' => [
+            'standard' => 'Marshall Islands Time',
+          ],
+        ],
+        'Mauritius' => [
+          'long' => [
+            'generic' => 'Mauritius Time',
+            'standard' => 'Mauritius Standard Time',
+            'daylight' => 'Mauritius Summer Time',
+          ],
+        ],
+        'Mawson' => [
+          'long' => [
+            'standard' => 'Mawson Time',
+          ],
+        ],
+        'Mexico_Northwest' => [
+          'long' => [
+            'generic' => 'Northwest Mexico Time',
+            'standard' => 'Northwest Mexico Standard Time',
+            'daylight' => 'Northwest Mexico Daylight Time',
+          ],
+        ],
+        'Mexico_Pacific' => [
+          'long' => [
+            'generic' => 'Mexican Pacific Time',
+            'standard' => 'Mexican Pacific Standard Time',
+            'daylight' => 'Mexican Pacific Daylight Time',
+          ],
+        ],
+        'Mongolia' => [
+          'long' => [
+            'generic' => 'Ulan Bator Time',
+            'standard' => 'Ulan Bator Standard Time',
+            'daylight' => 'Ulan Bator Summer Time',
+          ],
+        ],
+        'Moscow' => [
+          'long' => [
+            'generic' => 'Moscow Time',
+            'standard' => 'Moscow Standard Time',
+            'daylight' => 'Moscow Summer Time',
+          ],
+        ],
+        'Myanmar' => [
+          'long' => [
+            'standard' => 'Myanmar Time',
+          ],
+        ],
+        'Nauru' => [
+          'long' => [
+            'standard' => 'Nauru Time',
+          ],
+        ],
+        'Nepal' => [
+          'long' => [
+            'standard' => 'Nepal Time',
+          ],
+        ],
+        'New_Caledonia' => [
+          'long' => [
+            'generic' => 'New Caledonia Time',
+            'standard' => 'New Caledonia Standard Time',
+            'daylight' => 'New Caledonia Summer Time',
+          ],
+        ],
+        'New_Zealand' => [
+          'long' => [
+            'generic' => 'New Zealand Time',
+            'standard' => 'New Zealand Standard Time',
+            'daylight' => 'New Zealand Daylight Time',
+          ],
+          'short' => [
+            'generic' => 'NZT',
+            'standard' => 'NZST',
+            'daylight' => 'NZDT',
+          ],
+        ],
+        'Newfoundland' => [
+          'long' => [
+            'generic' => 'Newfoundland Time',
+            'standard' => 'Newfoundland Standard Time',
+            'daylight' => 'Newfoundland Daylight Time',
+          ],
+        ],
+        'Niue' => [
+          'long' => [
+            'standard' => 'Niue Time',
+          ],
+        ],
+        'Norfolk' => [
+          'long' => [
+            'standard' => 'Norfolk Island Time',
+          ],
+        ],
+        'Noronha' => [
+          'long' => [
+            'generic' => 'Fernando de Noronha Time',
+            'standard' => 'Fernando de Noronha Standard Time',
+            'daylight' => 'Fernando de Noronha Summer Time',
+          ],
+        ],
+        'North_Mariana' => [
+          'long' => [
+            'standard' => 'North Mariana Islands Time',
+          ],
+        ],
+        'Novosibirsk' => [
+          'long' => [
+            'generic' => 'Novosibirsk Time',
+            'standard' => 'Novosibirsk Standard Time',
+            'daylight' => 'Novosibirsk Summer Time',
+          ],
+        ],
+        'Omsk' => [
+          'long' => [
+            'generic' => 'Omsk Time',
+            'standard' => 'Omsk Standard Time',
+            'daylight' => 'Omsk Summer Time',
+          ],
+        ],
+        'Pakistan' => [
+          'long' => [
+            'generic' => 'Pakistan Time',
+            'standard' => 'Pakistan Standard Time',
+            'daylight' => 'Pakistan Summer Time',
+          ],
+        ],
+        'Palau' => [
+          'long' => [
+            'standard' => 'Palau Time',
+          ],
+        ],
+        'Papua_New_Guinea' => [
+          'long' => [
+            'standard' => 'Papua New Guinea Time',
+          ],
+        ],
+        'Paraguay' => [
+          'long' => [
+            'generic' => 'Paraguay Time',
+            'standard' => 'Paraguay Standard Time',
+            'daylight' => 'Paraguay Summer Time',
+          ],
+        ],
+        'Peru' => [
+          'long' => [
+            'generic' => 'Peru Time',
+            'standard' => 'Peru Standard Time',
+            'daylight' => 'Peru Summer Time',
+          ],
+        ],
+        'Philippines' => [
+          'long' => [
+            'generic' => 'Philippine Time',
+            'standard' => 'Philippine Standard Time',
+            'daylight' => 'Philippine Summer Time',
+          ],
+        ],
+        'Phoenix_Islands' => [
+          'long' => [
+            'standard' => 'Phoenix Islands Time',
+          ],
+        ],
+        'Pierre_Miquelon' => [
+          'long' => [
+            'generic' => 'Saint Pierre and Miquelon Time',
+            'standard' => 'Saint Pierre and Miquelon Standard Time',
+            'daylight' => 'Saint Pierre and Miquelon Daylight Time',
+          ],
+        ],
+        'Pitcairn' => [
+          'long' => [
+            'standard' => 'Pitcairn Time',
+          ],
+        ],
+        'Ponape' => [
+          'long' => [
+            'standard' => 'Ponape Time',
+          ],
+        ],
+        'Qyzylorda' => [
+          'long' => [
+            'generic' => 'Qyzylorda Time',
+            'standard' => 'Qyzylorda Standard Time',
+            'daylight' => 'Qyzylorda Summer Time',
+          ],
+        ],
+        'Reunion' => [
+          'long' => [
+            'standard' => 'Reunion Time',
+          ],
+        ],
+        'Rothera' => [
+          'long' => [
+            'standard' => 'Rothera Time',
+          ],
+        ],
+        'Sakhalin' => [
+          'long' => [
+            'generic' => 'Sakhalin Time',
+            'standard' => 'Sakhalin Standard Time',
+            'daylight' => 'Sakhalin Summer Time',
+          ],
+        ],
+        'Samara' => [
+          'long' => [
+            'generic' => 'Samara Time',
+            'standard' => 'Samara Standard Time',
+            'daylight' => 'Samara Summer Time',
+          ],
+        ],
+        'Samoa' => [
+          'long' => [
+            'generic' => 'Samoa Time',
+            'standard' => 'Samoa Standard Time',
+            'daylight' => 'Samoa Daylight Time',
+          ],
+        ],
+        'Seychelles' => [
+          'long' => [
+            'standard' => 'Seychelles Time',
+          ],
+        ],
+        'Singapore' => [
+          'long' => [
+            'standard' => 'Singapore Standard Time',
+          ],
+        ],
+        'Solomon' => [
+          'long' => [
+            'standard' => 'Solomon Islands Time',
+          ],
+        ],
+        'South_Georgia' => [
+          'long' => [
+            'standard' => 'South Georgia Time',
+          ],
+        ],
+        'Suriname' => [
+          'long' => [
+            'standard' => 'Suriname Time',
+          ],
+        ],
+        'Syowa' => [
+          'long' => [
+            'standard' => 'Syowa Time',
+          ],
+        ],
+        'Tahiti' => [
+          'long' => [
+            'standard' => 'Tahiti Time',
+          ],
+        ],
+        'Taipei' => [
+          'long' => [
+            'generic' => 'Taipei Time',
+            'standard' => 'Taipei Standard Time',
+            'daylight' => 'Taipei Summer Time',
+          ],
+        ],
+        'Tajikistan' => [
+          'long' => [
+            'standard' => 'Tajikistan Time',
+          ],
+        ],
+        'Tokelau' => [
+          'long' => [
+            'standard' => 'Tokelau Time',
+          ],
+        ],
+        'Tonga' => [
+          'long' => [
+            'generic' => 'Tonga Time',
+            'standard' => 'Tonga Standard Time',
+            'daylight' => 'Tonga Summer Time',
+          ],
+        ],
+        'Truk' => [
+          'long' => [
+            'standard' => 'Chuuk Time',
+          ],
+        ],
+        'Turkmenistan' => [
+          'long' => [
+            'generic' => 'Turkmenistan Time',
+            'standard' => 'Turkmenistan Standard Time',
+            'daylight' => 'Turkmenistan Summer Time',
+          ],
+        ],
+        'Tuvalu' => [
+          'long' => [
+            'standard' => 'Tuvalu Time',
+          ],
+        ],
+        'Uruguay' => [
+          'long' => [
+            'generic' => 'Uruguay Time',
+            'standard' => 'Uruguay Standard Time',
+            'daylight' => 'Uruguay Summer Time',
+          ],
+        ],
+        'Uzbekistan' => [
+          'long' => [
+            'generic' => 'Uzbekistan Time',
+            'standard' => 'Uzbekistan Standard Time',
+            'daylight' => 'Uzbekistan Summer Time',
+          ],
+        ],
+        'Vanuatu' => [
+          'long' => [
+            'generic' => 'Vanuatu Time',
+            'standard' => 'Vanuatu Standard Time',
+            'daylight' => 'Vanuatu Summer Time',
+          ],
+        ],
+        'Venezuela' => [
+          'long' => [
+            'standard' => 'Venezuela Time',
+          ],
+        ],
+        'Vladivostok' => [
+          'long' => [
+            'generic' => 'Vladivostok Time',
+            'standard' => 'Vladivostok Standard Time',
+            'daylight' => 'Vladivostok Summer Time',
+          ],
+        ],
+        'Volgograd' => [
+          'long' => [
+            'generic' => 'Volgograd Time',
+            'standard' => 'Volgograd Standard Time',
+            'daylight' => 'Volgograd Summer Time',
+          ],
+        ],
+        'Vostok' => [
+          'long' => [
+            'standard' => 'Vostok Time',
+          ],
+        ],
+        'Wake' => [
+          'long' => [
+            'standard' => 'Wake Island Time',
+          ],
+        ],
+        'Wallis' => [
+          'long' => [
+            'standard' => 'Wallis and Futuna Time',
+          ],
+        ],
+        'Yakutsk' => [
+          'long' => [
+            'generic' => 'Yakutsk Time',
+            'standard' => 'Yakutsk Standard Time',
+            'daylight' => 'Yakutsk Summer Time',
+          ],
+        ],
+        'Yekaterinburg' => [
+          'long' => [
+            'generic' => 'Yekaterinburg Time',
+            'standard' => 'Yekaterinburg Standard Time',
+            'daylight' => 'Yekaterinburg Summer Time',
+          ],
+        ],
+      ],
+    ],
+  ],
+];
